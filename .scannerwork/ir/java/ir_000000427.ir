@@ -1,20 +1,0 @@
-
-Q
-#instance-init#>org._iir.backend.modules.demande.DemandeService#instance-init#ECthis ("/org._iir.backend.modules.demande.DemandeServiceCthis ("/org._iir.backend.modules.demande.DemandeService"‘T
-R
-" (/"6
-#get-field# LoggerFactory#get-field# LoggerFactory*2	!Unknown!`
-^
-: (D":
-getClass,java.lang.Object#getClass()Ljava/lang/Class;(*2java.lang.Class8_
-]
-: (N"8
-getName+java.lang.Class#getName()Ljava/lang/String;(*2java.lang.String8,
-*
-" (O"
-	getLogger*2	!Unknown!8<
-:
- (P"(
-#set-field# logger#set-field# logger*
-
- (*/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/demande/DemandeService.java

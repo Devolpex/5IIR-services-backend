@@ -1,43 +1,0 @@
-
-ãorg._iir.backend.modules.proposition.PropositionService#findById(Ljava/lang/Long;)Lorg/_iir/backend/modules/proposition/dto/PropositionDto;í
-á/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/proposition/PropositionService.javaK K(""startingBlock*˛
-startingBlockK" K(+á
-Ñ
-J J(
-%2"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*2
-
-__unknown_file (
-
-idjava.lang.LongT
-R
-K( K(*
-idjava.lang.Long"__annotation*"
-
-__unknown_file (
-
-%2*
-1*Ó
-1L L(∑
-¥
-L L(9
-%03org._iir.backend.modules.proposition.PropositionDao"__id*g
-
-__unknown_file (K*I9
-7org._iir.backend.modules.proposition.PropositionService"
-
-repositoryê
-ç
-N Q(
-%1"__declareFunction*h
-
-__unknown_file (LJ
-H__sonar_lambda_7$org._iir.backend.modules.proposition.PropositionService"
-L Q(
-"": 
-K# K(*
-idjava.lang.LongB;9
-7org._iir.backend.modules.proposition.PropositionServiceH

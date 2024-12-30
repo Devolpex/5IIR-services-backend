@@ -1,25 +1,0 @@
-
-‹
-updateInfoszorg._iir.backend.modules.account.AccountController#updateInfos(Lorg/_iir/backend/modules/account/InfoREQ;)LResponseEntity; …Fthis& (1"2org._iir.backend.modules.account.AccountController;req2 (J"(org._iir.backend.modules.account.InfoREQFthis& (1"2org._iir.backend.modules.account.AccountController;req2 (J"(org._iir.backend.modules.account.InfoREQ"À|
-z
- (*"8
-#get-field# accountService#get-field# accountService*2/org._iir.backend.modules.account.AccountServiceó
-ð
- (;result"¦
-updateInfos”org._iir.backend.modules.account.AccountService#updateInfos(Lorg/_iir/backend/modules/account/InfoREQ;)Lorg/_iir/backend/modules/account/AccountDTO; *2+org._iir.backend.modules.account.AccountDTO8V
-T
- ("8
-#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
-L
-% (/"0
-#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!>
-<
-% (2" 
-#get-field# OK#get-field# OK*2	!Unknown!)
-'
- (3"
-status*2	!Unknown!8'
-%
- (@	"
-body*2	!Unknown!8
- (A	*‚/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/account/AccountController.java

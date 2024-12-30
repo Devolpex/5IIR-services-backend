@@ -1,9 +1,0 @@
-org._iir.backend.modules.order.offre.OffreOrderServiceImpl#cancelOrder(Ljava/lang/Long;)Lorg/_iir/backend/modules/order/dto/OffreOrderDTO;
-false
-f1a1ee896081659417989465f0f396d0
-org._iir.backend.exception.OwnNotFoundException#<init>(Ljava/lang/String;)V
-org._iir.backend.exception.OwnNotFoundException#instance-init#
-==
-!unknownMethod! !unknownMethod!
-getAuthenticatedUser org._iir.backend.modules.user.UserService#getAuthenticatedUser()Lorg/_iir/backend/modules/user/User;
-toDTO org._iir.backend.modules.order.offre.OffreOrderMapper#toDTO(Lorg/_iir/backend/modules/order/offre/OrderOffre;)Lorg/_iir/backend/modules/order/dto/OffreOrderDTO;

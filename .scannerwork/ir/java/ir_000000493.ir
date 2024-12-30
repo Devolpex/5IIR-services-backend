@@ -1,25 +1,0 @@
-
-x
-deleteOrdergorg._iir.backend.modules.order.offre.OffreOrderController#deleteOrder(Ljava/lang/Long;)LResponseEntity; qMthis[  [(+"9org._iir.backend.modules.order.offre.OffreOrderController id[, [(A"java.lang.LongMthis[  [(+"9org._iir.backend.modules.order.offre.OffreOrderController id[, [(A"java.lang.Long"Õy
-w
-\ \("*
-#get-field# service#get-field# service*2:org._iir.backend.modules.order.offre.OffreOrderServiceImpl|
-z
-\ \("`
-deleteTorg._iir.backend.modules.order.offre.OffreOrderServiceImpl#delete(Ljava/lang/Long;)V *2void8V
-T
-] ]("8
-#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
-L
-]% ](/"0
-#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!N
-L
-]% ](:"0
-#get-field# NO_CONTENT#get-field# NO_CONTENT*2	!Unknown!)
-'
-] ](;"
-status*2	!Unknown!8'
-%
-] ](C	"
-build*2	!Unknown!8
-] ](D	*‰/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/order/offre/OffreOrderController.java

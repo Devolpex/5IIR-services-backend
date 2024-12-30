@@ -1,24 +1,0 @@
-
-;org._iir.backend.modules.order.offre.OrderOffre#hashCode()Iâ
-/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/order/offre/OrderOffre.javaE E("1*’
-1F F(Å
-
-F F(
-%0java.lang.Long"__id*W
-
-__unknown_file (;*91
-/org._iir.backend.modules.order.offre.OrderOffre"
-id≠
-™
-F F(	
-%1int",java.util.Objects#hash([Ljava/lang/Object;)I*1
-
-__unknown_file ("
-java.util.Objects*2
-
-__unknown_file (
-
-%0java.lang.Long"
-F F( 
-""B31
-/org._iir.backend.modules.order.offre.OrderOffreHX

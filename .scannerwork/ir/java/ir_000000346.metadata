@@ -1,5 +1,0 @@
-org._iir.backend.modules.proposition.PropositionService#update(Lorg/_iir/backend/modules/proposition/dto/PropositionReq;Ljava/lang/Long;)Lorg/_iir/backend/modules/proposition/dto/PropositionDto;
-false
-a15a2e2f4db424480416006bdd08a7e0
-java.lang.UnsupportedOperationException#<init>(Ljava/lang/String;)V
-java.lang.UnsupportedOperationException#instance-init#

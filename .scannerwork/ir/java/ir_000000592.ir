@@ -1,11 +1,0 @@
-
-@
-onUpdate4org._iir.backend.modules.demande.Demande#onUpdate()V><this3 3("(org._iir.backend.modules.demande.Demande<this3 3("(org._iir.backend.modules.demande.Demande"¼h
-f
-4 4(,"?
-now6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;(2java.time.LocalDateTimeB
-@
-4 4(,".
-#set-field# updatedAt#set-field# updatedAt*
-
-5 5(*x/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/demande/Demande.java

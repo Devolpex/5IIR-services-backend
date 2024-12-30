@@ -1,25 +1,0 @@
-
-a
-deleteUorg._iir.backend.modules.user.UserController#delete(Ljava/lang/Long;)LResponseEntity; d@thisS  S(&",org._iir.backend.modules.user.UserController idS' S(<"java.lang.Long@thisS  S(&",org._iir.backend.modules.user.UserController idS' S(<"java.lang.Long"»p
-n
-T T("2
-#get-field# userService#get-field# userService*2)org._iir.backend.modules.user.UserServicek
-i
-T T("O
-deleteCorg._iir.backend.modules.user.UserService#delete(Ljava/lang/Long;)V *2void8V
-T
-U U("8
-#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
-L
-U% U(/"0
-#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!N
-L
-U% U(:"0
-#get-field# NO_CONTENT#get-field# NO_CONTENT*2	!Unknown!)
-'
-U U(;"
-status*2	!Unknown!8'
-%
-U U(C	"
-build*2	!Unknown!8
-U U(D	*|/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/user/UserController.java

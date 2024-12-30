@@ -1,25 +1,0 @@
-
-d
-	getOrdersUorg._iir.backend.modules.order.offre.OffreOrderController#getOrders()LResponseEntity; OMthis0/ 0(8"9org._iir.backend.modules.order.offre.OffreOrderControllerMthis0/ 0(8"9org._iir.backend.modules.order.offre.OffreOrderController"Ûy
-w
-1% 1(,"*
-#get-field# service#get-field# service*2:org._iir.backend.modules.order.offre.OffreOrderServiceImpl‘
-Ž
-1% 1(7orders"c
-findListUorg._iir.backend.modules.order.offre.OffreOrderServiceImpl#findList()Ljava/util/List; *2java.util.List8V
-T
-2 2("8
-#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
-L
-2% 2(/"0
-#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!>
-<
-2% 2(2" 
-#get-field# OK#get-field# OK*2	!Unknown!)
-'
-2 2(3"
-status*2	!Unknown!8'
-%
-2 2(@"
-body*2	!Unknown!8
-2 2(A*‰/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/order/offre/OffreOrderController.java

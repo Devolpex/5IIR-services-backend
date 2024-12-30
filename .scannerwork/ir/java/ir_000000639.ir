@@ -1,19 +1,0 @@
-
-u
-authenticationProviderYorg._iir.backend.security.SecurityConfig#authenticationProvider()LAuthenticationProvider; ><thisp& p(<"(org._iir.backend.security.SecurityConfig<thisp& p(<"(org._iir.backend.security.SecurityConfig"ÇZ
-X
-q q(T"
-#new-object##new-object#2,org._iir.backend.security.CustomAuthProviderc
-a
-q q(T"N
-#instance-init#;org._iir.backend.security.CustomAuthProvider#instance-init#*8ˆ
-…
-q. q(@"@
-#get-field# userDetailsService#get-field# userDetailsService*22org._iir.backend.security.CustomUserDetailsService7
-5
-qB q(S"
-passwordEncoder*2PasswordEncoder80
-.
-q q(T"
-<init>!unknownMethod!*8
-q q(U*x/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/security/SecurityConfig.java

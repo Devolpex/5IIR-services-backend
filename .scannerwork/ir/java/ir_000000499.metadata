@@ -1,6 +1,0 @@
-org._iir.backend.modules.user.UserDTO#equals(Ljava/lang/Object;)Z
-false
-f355bd0b7924449c226c6c79351ea8e9
-java.lang.Long#equals(Ljava/lang/Object;)Z
-java.lang.Object#getClass()Ljava/lang/Class;
-java.lang.String#equals(Ljava/lang/Object;)Z

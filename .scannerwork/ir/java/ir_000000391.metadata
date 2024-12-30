@@ -1,6 +1,0 @@
-org._iir.backend.handler.GlobalExceptionHandler#handlePasswordIncorrectException(Lorg/_iir/backend/exception/PasswordIncorrectException;)LResponseEntity;
-false
-15ba8c6dc1ec2d18e78a270f78718011
-==
-!unknownMethod! !unknownMethod!
-getResponse org._iir.backend.exception.PasswordIncorrectException#getResponse()Lorg/_iir/backend/handler/OwnErrorResponse;

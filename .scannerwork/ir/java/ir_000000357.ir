@@ -1,25 +1,0 @@
-
-s
-findByIdeorg._iir.backend.modules.proposition.PropositionController#findById(Ljava/lang/Long;)LResponseEntity; rNthis$. $(6":org._iir.backend.modules.proposition.PropositionController id% %(%"java.lang.LongNthis$. $(6":org._iir.backend.modules.proposition.PropositionController id% %(%"java.lang.Long"·v
-t
-&! &(("*
-#get-field# service#get-field# service*27org._iir.backend.modules.proposition.PropositionServiceð
-í
-&! &(5dto"š
-findById‹org._iir.backend.modules.proposition.PropositionService#findById(Ljava/lang/Long;)Lorg/_iir/backend/modules/proposition/dto/PropositionDto; *27org._iir.backend.modules.proposition.dto.PropositionDto8V
-T
-' '(!"8
-#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
-L
-') '(3"0
-#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!>
-<
-') '(6" 
-#get-field# OK#get-field# OK*2	!Unknown!)
-'
-' '(7"
-status*2	!Unknown!8'
-%
-' '(A	"
-body*2	!Unknown!8
-' '(B	*Š/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/proposition/PropositionController.java

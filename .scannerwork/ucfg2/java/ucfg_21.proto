@@ -1,38 +1,0 @@
-
-Iorg._iir.backend.security.CustomAuthProvider#supports(Ljava/lang/Class;)Z†
-|/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/security/CustomAuthProvider.java( (("startingBlock*˜
-startingBlock( ((4”
-‘
-' '(
-%1"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*?
-
-__unknown_file (#
-!
-authenticationjava.lang.Classa
-_
-(% ((3!
-authenticationjava.lang.Class"__annotation*"
-
-__unknown_file (
-
-%1*
-1*€
-1) )(8ÜÙ
-) )(Y
-%0boolean"4java.lang.Class#isAssignableFrom(Ljava/lang/Class;)Z*"
-
-__unknown_file (
-""*?
-
-__unknown_file (#
-!
-authenticationjava.lang.Class2#isAssignableFrom(Ljava/lang/Class;)"
-) )(Z
-"":-
-( ((3!
-authenticationjava.lang.ClassB0.
-,org._iir.backend.security.CustomAuthProviderHX

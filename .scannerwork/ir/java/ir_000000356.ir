@@ -1,25 +1,0 @@
-
-o
-deletecorg._iir.backend.modules.proposition.PropositionController#delete(Ljava/lang/Long;)LResponseEntity; rNthis$ (*":org._iir.backend.modules.proposition.PropositionController id+ (@"java.lang.LongNthis$ (*":org._iir.backend.modules.proposition.PropositionController id+ (@"java.lang.Long"Ïv
-t
- ("*
-#get-field# service#get-field# service*27org._iir.backend.modules.proposition.PropositionServicey
-w
- ("]
-deleteQorg._iir.backend.modules.proposition.PropositionService#delete(Ljava/lang/Long;)V *2void8V
-T
- (!"8
-#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
-L
-) (3"0
-#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!N
-L
-) (>"0
-#get-field# NO_CONTENT#get-field# NO_CONTENT*2	!Unknown!)
-'
- (?"
-status*2	!Unknown!8'
-%
- (G	"
-build*2	!Unknown!8
- (H	*Š/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/proposition/PropositionController.java

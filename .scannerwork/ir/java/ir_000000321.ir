@@ -1,11 +1,0 @@
-
-n
-removeToken]org._iir.backend.modules.auth.mail.DefaultSecureTokenService#removeToken(Ljava/lang/String;)V yPthis5 5("<org._iir.backend.modules.auth.mail.DefaultSecureTokenService%token5 5(("java.lang.StringPthis5 5("<org._iir.backend.modules.auth.mail.DefaultSecureTokenService%token5 5(("java.lang.String"³€
-~
-6 6("8
-#get-field# secureTokenDao#get-field# secureTokenDao*23org._iir.backend.modules.user.SecureTokenRepositoryŸ
-œ
-6 6(+"x
-deleteByTokeneorg._iir.backend.modules.user.SecureTokenRepository#deleteByToken(Ljava/lang/String;)Ljava/lang/Long; *2java.lang.Long8
-
-7 7(*Œ/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/auth/mail/DefaultSecureTokenService.java

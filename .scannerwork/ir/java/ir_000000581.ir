@@ -1,20 +1,0 @@
-
-?
-debug4org._iir.backend.tools.Debug#debug()LResponseEntity; 20this (""org._iir.backend.tools.Debug0this (""org._iir.backend.tools.Debug"Þd
-b
- (3"F
-!#get-field# SecurityContextHolder!#get-field# SecurityContextHolder*2	!Unknown!,
-*
- (@"
-
-getContext*2	!Unknown!89
-7
- (Tauth"
-getAuthentication*2	!Unknown!8V
-T
- ("8
-#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!%
-#
- (&"
-ok*2	!Unknown!8
- ('*l/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/tools/Debug.java

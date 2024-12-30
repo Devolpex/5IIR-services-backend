@@ -1,6 +1,0 @@
-org._iir.backend.handler.GlobalExceptionHandler#handleMyAuthException(Lorg/_iir/backend/exception/MyAuthException;)LResponseEntity;
-false
-2fb96be39bde44081c331ee8421a8f56
-==
-!unknownMethod! !unknownMethod!
-getResponse org._iir.backend.exception.MyAuthException#getResponse()Lorg/_iir/backend/handler/errors/MyErrRes;

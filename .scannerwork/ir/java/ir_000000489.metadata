@@ -1,6 +1,0 @@
-org._iir.backend.modules.order.offre.OffreOrderController#getOrdersPage(IILjava/lang/String;Ljava/lang/String;)LResponseEntity;
-false
-403cd913da69593290a70f0c4a60b607
-==
-!unknownMethod! !unknownMethod!
-findPage org._iir.backend.modules.order.offre.OffreOrderServiceImpl#findPage(LPageable;)LPage;

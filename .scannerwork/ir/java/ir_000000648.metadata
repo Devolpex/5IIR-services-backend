@@ -1,6 +1,0 @@
-org._iir.backend.modules.demande.DemandeController#delete(Ljava/lang/Long;)LResponseEntity;
-false
-1bed0e5a8c4411e4b81466a2a6f2fcd7
-==
-!unknownMethod! !unknownMethod!
-delete org._iir.backend.modules.demande.DemandeService#delete(Ljava/lang/Long;)V

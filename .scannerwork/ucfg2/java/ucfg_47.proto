@@ -1,133 +1,0 @@
-
-Korg._iir.backend.modules.order.offre.OrderOffre#equals(Ljava/lang/Object;)Zâ
-/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/order/offre/OrderOffre.java: :("startingBlock*!
-2> >("
-> >(
-""*ï
-3= =(!Ø¨
-= =(#
-%2java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*O
-
-__unknown_file (31
-/org._iir.backend.modules.order.offre.OrderOffre2
-getClass()ìê
-=' =(3
-%3java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*3
-
-__unknown_file (
-
-ojava.lang.Object2
-getClass()µ
-≤
-= =(3
-%4boolean"	__compare*"
-
-__unknown_file (
-!=*3
-
-__unknown_file (
-
-%2java.lang.Class*3
-
-__unknown_file (
-
-%3java.lang.Class*
-2
-1*Ä
-startingBlock: :(#à
-Ö
-9 9(
-%8"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*3
-
-__unknown_file (
-
-ojava.lang.ObjectU
-S
-:! :("
-ojava.lang.Object"__annotation*"
-
-__unknown_file (
-
-%8*
-6*º
-4= =(§
-°
-= =(
-%1boolean"	__compare*"
-
-__unknown_file (
-==*3
-
-__unknown_file (
-
-ojava.lang.Object*"
-
-__unknown_file (
-""*
-2
-3*!
-5< <("
-< <(
-""*È
-6; ;(—
-Œ
-; ;(
-%0boolean"	__compare*"
-
-__unknown_file (
-==*O
-
-__unknown_file (31
-/org._iir.backend.modules.order.offre.OrderOffre*3
-
-__unknown_file (
-
-ojava.lang.Object*
-4
-5*È
-1?' ?((Ä
-~
-? ?()7
-that/org._iir.backend.modules.order.offre.OrderOffre"__id*3
-
-__unknown_file (
-
-ojava.lang.ObjectÅ
-
-@ @(
-%5java.lang.Long"__id*W
-
-__unknown_file (;*91
-/org._iir.backend.modules.order.offre.OrderOffre"
-idà
-Ö
-@ @(
-%6java.lang.Long"__id*]
-
-__unknown_file (A*?
-7
-that/org._iir.backend.modules.order.offre.OrderOffre"
-id≥
-∞
-@ @(
-%7boolean"	__compare*"
-
-__unknown_file (
-==*2
-
-__unknown_file (
-
-%5java.lang.Long*2
-
-__unknown_file (
-
-%6java.lang.Long"
-@ @(
-"":!
-: :("
-ojava.lang.ObjectB31
-/org._iir.backend.modules.order.offre.OrderOffreHX

@@ -1,13 +1,0 @@
-
-\
-hashCodeNorg._iir.backend.modules.prestataire_services.PrestataireServiceID#hashCode()I XVthis   ("Borg._iir.backend.modules.prestataire_services.PrestataireServiceIDVthis   ("Borg._iir.backend.modules.prestataire_services.PrestataireServiceID"èY
-W
-! !()"6
-#get-field# prestataireId#get-field# prestataireId*2java.lang.LongQ
-O
-!+ !(4".
-#get-field# serviceId#get-field# serviceId*2java.lang.LongO
-M
-! !(5"6
-hash,java.util.Objects#hash([Ljava/lang/Object;)I(*2int
-! !(6*í/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/prestataire_services/PrestataireServiceID.java

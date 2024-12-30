@@ -1,20 +1,0 @@
-
-Y
-#instance-init#Forg._iir.backend.modules.proposition.PropositionService#instance-init#MKthis ("7org._iir.backend.modules.proposition.PropositionServiceKthis ("7org._iir.backend.modules.proposition.PropositionService"‘T
-R
-" (/"6
-#get-field# LoggerFactory#get-field# LoggerFactory*2	!Unknown!`
-^
-: (D":
-getClass,java.lang.Object#getClass()Ljava/lang/Class;(*2java.lang.Class8_
-]
-: (N"8
-getName+java.lang.Class#getName()Ljava/lang/String;(*2java.lang.String8,
-*
-" (O"
-	getLogger*2	!Unknown!8<
-:
- (P"(
-#set-field# logger#set-field# logger*
-
- ](*‡/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/proposition/PropositionService.java

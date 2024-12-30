@@ -1,6 +1,0 @@
-org._iir.backend.modules.account.AccountController#updatePassword(Lorg/_iir/backend/modules/account/PasswordREQ;)LResponseEntity;
-false
-fecdb797d316513fef762e69dd612018
-==
-!unknownMethod! !unknownMethod!
-updatePassword org._iir.backend.modules.account.AccountService#updatePassword(Lorg/_iir/backend/modules/account/PasswordREQ;)V

@@ -1,9 +1,0 @@
-org._iir.backend.modules.auth.AuthService#login(Lorg/_iir/backend/modules/auth/LoginRequest;)Lorg/_iir/backend/modules/auth/UserDTO;
-false
-87ea83575906278c690211c7c038693d
-!unknownMethod!
-org._iir.backend.modules.auth.LoginRequest#email()Ljava/lang/String;
-org._iir.backend.modules.auth.LoginRequest#password()Ljava/lang/String;
-==
-!unknownMethod! !unknownMethod!
-generateToken org._iir.backend.security.JwtProvider#generateToken(Lorg/_iir/backend/modules/user/User;)Ljava/lang/String;

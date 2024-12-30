@@ -1,6 +1,0 @@
-org._iir.backend.modules.user.UserController#fetch(Ljava/lang/Long;)LResponseEntity;
-false
-8a406cb7ea9bca149ad9e3b22891f17d
-==
-!unknownMethod! !unknownMethod!
-findById org._iir.backend.modules.user.UserService#findById(Ljava/lang/Long;)Lorg/_iir/backend/modules/user/UserDTO;

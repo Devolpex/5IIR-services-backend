@@ -1,16 +1,0 @@
-
-horg._iir.backend.exception.OwnNotFoundException#getResponse()Lorg/_iir/backend/handler/OwnErrorResponse;‰
-/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/exception/OwnNotFoundException.java ('"1*ò
-1 (£
- 
- (/
-%0)org._iir.backend.handler.OwnErrorResponse"__id*]
-
-__unknown_file (A*?1
-/org._iir.backend.exception.OwnNotFoundException"
-
-response"=
- (1
-/
-%0)org._iir.backend.handler.OwnErrorResponseB31
-/org._iir.backend.exception.OwnNotFoundExceptionH

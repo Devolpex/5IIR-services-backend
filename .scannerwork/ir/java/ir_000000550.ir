@@ -1,37 +1,0 @@
-
-u
-OwnNotSaveException\org._iir.backend.exception.OwnNotSaveException#<init>(Ljava/lang/String;Ljava/lang/String;)V æBthis (".org._iir.backend.exception.OwnNotSaveException#msg ()"java.lang.String%field* (6"java.lang.String"%!org._iir.backend.handler.OwnError"-)org._iir.backend.handler.OwnErrorResponseBthis (".org._iir.backend.exception.OwnNotSaveException#msg ()"java.lang.String%field* (6"java.lang.String"–u
-s
- ("C
-super6java.lang.RuntimeException#<init>(Ljava/lang/String;)V (*2java.lang.RuntimeException8)
-'
- (2"	
-builder*2	!Unknown!8)
-'
-B (T"	
-builder*2	!Unknown!8*
-(
-B (a	"	
-message*2	!Unknown!8(
-&
-B (n
-"
-field*	2	!Unknown!8'
-%
-B (v"
-build*
-2	!Unknown!8"
- 
-: (w"
-of*2	!Unknown!)
-'
- (x"
-errors*2	!Unknown!8(
-&
-	 (€"
-build*2	!Unknown!8A
-?
-	 (€",
-#set-field# response#set-field# response*
-
- (*~/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/exception/OwnNotSaveException.java

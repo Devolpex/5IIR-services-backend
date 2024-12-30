@@ -1,23 +1,0 @@
-
-
-RegistrationErrorhorg._iir.backend.modules.auth.mail.error.RegistrationError#<init>(Ljava/lang/String;Ljava/lang/String;)V  Nthis
- 
-(":org._iir.backend.modules.auth.mail.error.RegistrationError%field
- 
-()"java.lang.String'message
-+ 
-(9"java.lang.StringNthis
- 
-(":org._iir.backend.modules.auth.mail.error.RegistrationError%field
- 
-()"java.lang.String'message
-+ 
-(9"java.lang.String"Š:
-8
- ("&
-#set-field# field#set-field# field*>
-<
- ("*
-#set-field# message#set-field# message*
-
- (*Š/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/auth/mail/error/RegistrationError.java

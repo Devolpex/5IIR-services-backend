@@ -1,6 +1,0 @@
-org._iir.backend.modules.order.offre.OffreOrderController#getOrders()LResponseEntity;
-false
-47d8d263891db629728ef570dc65e4a5
-==
-!unknownMethod! !unknownMethod!
-findList org._iir.backend.modules.order.offre.OffreOrderServiceImpl#findList()Ljava/util/List;

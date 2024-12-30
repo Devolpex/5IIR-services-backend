@@ -1,13 +1,0 @@
-
-`
-findListRorg._iir.backend.modules.proposition.PropositionService#findList()Ljava/util/List; y*"Not supported yet."java.lang.StringKthisU  U(("7org._iir.backend.modules.proposition.PropositionServiceKthisU  U(("7org._iir.backend.modules.proposition.PropositionService"®U
-S
-V V(E"
-#new-object##new-object#2'java.lang.UnsupportedOperationException^
-\
-V V(E"I
-#instance-init#6java.lang.UnsupportedOperationException#instance-init#*8e
-c
-V V(E"O
-<init>Cjava.lang.UnsupportedOperationException#<init>(Ljava/lang/String;)V(*82
-V V(F*‡/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/proposition/PropositionService.java

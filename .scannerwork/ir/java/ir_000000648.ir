@@ -1,25 +1,0 @@
-
-g
-delete[org._iir.backend.modules.demande.DemandeController#delete(Ljava/lang/Long;)LResponseEntity; jFthis2  2(&"2org._iir.backend.modules.demande.DemandeController id2' 2(<"java.lang.LongFthis2  2(&"2org._iir.backend.modules.demande.DemandeController id2' 2(<"java.lang.Long"¿n
-l
-3 3("*
-#get-field# service#get-field# service*2/org._iir.backend.modules.demande.DemandeServiceq
-o
-3 3("U
-deleteIorg._iir.backend.modules.demande.DemandeService#delete(Ljava/lang/Long;)V *2void8V
-T
-4 4("8
-#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
-L
-4% 4(/"0
-#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!N
-L
-4% 4(:"0
-#get-field# NO_CONTENT#get-field# NO_CONTENT*2	!Unknown!)
-'
-4 4(;"
-status*2	!Unknown!8'
-%
-4 4(C	"
-build*2	!Unknown!8
-4 4(D	*‚/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/demande/DemandeController.java

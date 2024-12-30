@@ -1,7 +1,0 @@
-org._iir.backend.security.JwtProvider#getAuthentication(Ljava/lang/String;)LAuthentication;
-false
-aec6ece7a65887c7b74425d111e4e87d
-!unknownMethod!
-==
-!unknownMethod! !unknownMethod!
-extractUserEmail org._iir.backend.security.JwtProvider#extractUserEmail(Ljava/lang/String;)Ljava/lang/String;

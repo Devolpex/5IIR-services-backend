@@ -1,8 +1,0 @@
-org._iir.backend.security.JwtProvider#validateToken(Ljava/lang/String;LUserDetails;)Z
-false
-127c4273631b0e5f373ac4e4460477a0
-java.lang.String#equals(Ljava/lang/Object;)Z
-org._iir.backend.security.JwtProvider#isTokenExpired(Ljava/lang/String;)Z
-==
-!unknownMethod! !unknownMethod!
-extractUserEmail org._iir.backend.security.JwtProvider#extractUserEmail(Ljava/lang/String;)Ljava/lang/String;

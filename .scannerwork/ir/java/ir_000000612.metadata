@@ -1,5 +1,0 @@
-org._iir.backend.security.JwtProvider#extractRole(Ljava/lang/String;)Ljava/lang/String;
-false
-fa840511e51c7caa25b35577feec6ea1
-==
-extractClaim org._iir.backend.security.JwtProvider#extractClaim(Ljava/lang/String;Ljava/util/function/Function;)Ljava/lang/Object;

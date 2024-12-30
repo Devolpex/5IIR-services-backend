@@ -1,11 +1,0 @@
-
-è
-saveSecureTokenzorg._iir.backend.modules.auth.mail.DefaultSecureTokenService#saveSecureToken(Lorg/_iir/backend/modules/user/SecureToken;)V òPthis* *("<org._iir.backend.modules.auth.mail.DefaultSecureTokenServiceDsecureToken*  *(7")org._iir.backend.modules.user.SecureTokenPthis* *("<org._iir.backend.modules.auth.mail.DefaultSecureTokenServiceDsecureToken*  *(7")org._iir.backend.modules.user.SecureToken"∫Ä
-~
-+ +("8
-#get-field# secureTokenDao#get-field# secureTokenDao*23org._iir.backend.modules.user.SecureTokenRepository'
-%
-+ +(("
-save*2	!Unknown!8
-
-- -(*å/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/auth/mail/DefaultSecureTokenService.java

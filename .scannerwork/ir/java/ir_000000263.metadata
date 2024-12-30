@@ -1,4 +1,0 @@
-org._iir.backend.security.CustomAuthProvider#supports(Ljava/lang/Class;)Z
-false
-eb34bc1989b04edc9591514f9cf63876
-java.lang.Class#isAssignableFrom(Ljava/lang/Class;)Z

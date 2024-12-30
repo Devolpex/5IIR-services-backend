@@ -1,29 +1,0 @@
-
-©org._iir.backend.modules.proposition.PropositionMapper#toDTO(Lorg/_iir/backend/modules/proposition/Proposition;)Lorg/_iir/backend/modules/proposition/dto/PropositionDto;‘
-†/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/proposition/PropositionMapper.java ("startingBlock*Ê
-startingBlock (3­
-ª
- (
-%0"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*X
-
-__unknown_file (<
-:
-entity0org._iir.backend.modules.proposition.Propositionz
-x
-, (2:
-entity0org._iir.backend.modules.proposition.Proposition"__annotation*"
-
-__unknown_file (
-
-%0*
-1*!
-1 ("
- &(
-"":F
-  (2:
-entity0org._iir.backend.modules.proposition.PropositionB:8
-6org._iir.backend.modules.proposition.PropositionMapperH

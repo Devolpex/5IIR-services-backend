@@ -1,14 +1,0 @@
-
-[
-toStringMorg._iir.backend.modules.prestataire.Prestataire#toString()Ljava/lang/String; ­"]"java.lang.String 
-", email="java.lang.String("Prestataire [id="java.lang.StringDthis   ("0org._iir.backend.modules.prestataire.PrestataireDthis   ("0org._iir.backend.modules.prestataire.Prestataire"ÑC
-A
-!$ !(&" 
-#get-field# id#get-field# id*2java.lang.LongK
-I
-!6 !(;"&
-#get-field# email#get-field# email*2java.lang.String-
-+
-! !(A"
-	#binop +#	#binop +#*
-! !(B*€/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/prestataire/Prestataire.java

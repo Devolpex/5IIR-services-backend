@@ -1,6 +1,0 @@
-org._iir.backend.modules.user.UserService#saveDemandeur(Lorg/_iir/backend/modules/user/User;)Lorg/_iir/backend/modules/user/User;
-false
-15cd75d51c7615370feaefca03c8e28e
-==
-!unknownMethod! !unknownMethod!
-getPassword org._iir.backend.modules.user.User#getPassword()Ljava/lang/String;

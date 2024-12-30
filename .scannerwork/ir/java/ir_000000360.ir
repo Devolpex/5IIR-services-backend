@@ -1,15 +1,0 @@
-
-[
-MyAuthExceptionForg._iir.backend.exception.MyAuthException#<init>(Ljava/lang/String;)V i>this ("*org._iir.backend.exception.MyAuthException'message ()"java.lang.String>this ("*org._iir.backend.exception.MyAuthException'message ()"java.lang.String"Ò(
-&
- ("
-super*2	!Unknown!8i
-g
- (",
-#get-field# response#get-field# response*2(org._iir.backend.handler.errors.MyErrRes-
-+
- ($"
-
-setMessage*2	!Unknown!8
-
- (*z/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/exception/MyAuthException.java

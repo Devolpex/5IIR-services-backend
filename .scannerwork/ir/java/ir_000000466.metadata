@@ -1,6 +1,0 @@
-org._iir.backend.modules.prestataire_services.PrestataireServices#equals(Ljava/lang/Object;)Z
-false
-7d7f0a4171c58498c5e1dbe1d179c090
-java.lang.Object#getClass()Ljava/lang/Class;
-==
-equals org._iir.backend.modules.prestataire_services.PrestataireServiceID#equals(Ljava/lang/Object;)Z

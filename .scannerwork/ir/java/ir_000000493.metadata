@@ -1,6 +1,0 @@
-org._iir.backend.modules.order.offre.OffreOrderController#deleteOrder(Ljava/lang/Long;)LResponseEntity;
-false
-5dcb22f716caf38f1b04de5a61036744
-==
-!unknownMethod! !unknownMethod!
-delete org._iir.backend.modules.order.offre.OffreOrderServiceImpl#delete(Ljava/lang/Long;)V

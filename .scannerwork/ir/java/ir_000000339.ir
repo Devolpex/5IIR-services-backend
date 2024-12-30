@@ -1,25 +1,0 @@
-
-ñ
-updatePasswordÅorg._iir.backend.modules.account.AccountController#updatePassword(Lorg/_iir/backend/modules/account/PasswordREQ;)LResponseEntity; âFthis#  #(."2org._iir.backend.modules.account.AccountController?req#/ #(K",org._iir.backend.modules.account.PasswordREQFthis#  #(."2org._iir.backend.modules.account.AccountController?req#/ #(K",org._iir.backend.modules.account.PasswordREQ"˛|
-z
-$ $("8
-#get-field# accountService#get-field# accountService*2/org._iir.backend.modules.account.AccountService°
-û
-$ $(*"É
-updatePasswordoorg._iir.backend.modules.account.AccountService#updatePassword(Lorg/_iir/backend/modules/account/PasswordREQ;)V *2void8V
-T
-% %("8
-#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
-L
-%% %(/"0
-#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!N
-L
-%% %(:"0
-#get-field# NO_CONTENT#get-field# NO_CONTENT*2	!Unknown!)
-'
-% %(;"
-status*2	!Unknown!8'
-%
-% %(C	"
-build*2	!Unknown!8
-% %(D	*Ç/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/account/AccountController.java

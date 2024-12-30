@@ -1,6 +1,0 @@
-org._iir.backend.modules.order.offre.OffreOrderController#getOrdersByUser()LResponseEntity;
-false
-4102ce13a2504514ebf407efef73512a
-==
-!unknownMethod! !unknownMethod!
-fetchOrdersByUser org._iir.backend.modules.order.offre.OffreOrderServiceImpl#fetchOrdersByUser()Ljava/util/List;

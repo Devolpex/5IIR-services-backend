@@ -1,6 +1,0 @@
-org._iir.backend.modules.order.offre.OffreOrderController#createOrder(Lorg/_iir/backend/modules/order/offre/OffreOrderREQ;)LResponseEntity;
-false
-46383f57a5da7c6a79a0c601a7d5405e
-==
-!unknownMethod! !unknownMethod!
-create org._iir.backend.modules.order.offre.OffreOrderServiceImpl#create(Lorg/_iir/backend/modules/order/offre/OffreOrderREQ;)Lorg/_iir/backend/modules/order/dto/OffreOrderDTO;

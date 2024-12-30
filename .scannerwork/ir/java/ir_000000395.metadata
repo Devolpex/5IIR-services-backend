@@ -1,5 +1,0 @@
-org._iir.backend.modules.order.offre.OffreOrderServiceImpl#update(Lorg/_iir/backend/modules/order/offre/OffreOrderREQ;Ljava/lang/Long;)Lorg/_iir/backend/modules/order/dto/OffreOrderDTO;
-false
-e674c1e380b1f049b7c4cfeb4ac7563d
-java.lang.UnsupportedOperationException#<init>(Ljava/lang/String;)V
-java.lang.UnsupportedOperationException#instance-init#

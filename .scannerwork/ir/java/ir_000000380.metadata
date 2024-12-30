@@ -1,6 +1,0 @@
-org._iir.backend.modules.auth.AuthController#login(Lorg/_iir/backend/modules/auth/LoginRequest;)LResponseEntity;
-false
-e0973e675696b2f18c3ce3022917389f
-==
-!unknownMethod! !unknownMethod!
-login org._iir.backend.modules.auth.AuthService#login(Lorg/_iir/backend/modules/auth/LoginRequest;)Lorg/_iir/backend/modules/auth/UserDTO;
