@@ -1,0 +1,8 @@
+org._iir.backend.security.JwtProvider#isTokenExpired(Ljava/lang/String;)Z
+false
+8cac7cfd18b55dbb11c1812a98b7ff6e
+java.util.Date#<init>()V
+java.util.Date#instance-init#
+org._iir.backend.security.JwtProvider#extractExpiration(Ljava/lang/String;)Ljava/util/Date;
+==
+before java.util.Date#before(Ljava/util/Date;)Z

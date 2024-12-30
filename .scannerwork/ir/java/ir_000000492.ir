@@ -1,0 +1,25 @@
+
+x
+cancelOrdergorg._iir.backend.modules.order.offre.OffreOrderController#cancelOrder(Ljava/lang/Long;)LResponseEntity; qMthisT) T(4"9org._iir.backend.modules.order.offre.OffreOrderController idT5 T(J"java.lang.LongMthisT) T(4"9org._iir.backend.modules.order.offre.OffreOrderController idT5 T(J"java.lang.Long"·y
+w
+U U(%"*
+#get-field# service#get-field# service*2:org._iir.backend.modules.order.offre.OffreOrderServiceImplí
+ê
+U U(5order"œ
+cancelOrderŠorg._iir.backend.modules.order.offre.OffreOrderServiceImpl#cancelOrder(Ljava/lang/Long;)Lorg/_iir/backend/modules/order/dto/OffreOrderDTO; *20org._iir.backend.modules.order.dto.OffreOrderDTO8V
+T
+V V("8
+#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
+L
+V% V(/"0
+#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!>
+<
+V% V(2" 
+#get-field# OK#get-field# OK*2	!Unknown!)
+'
+V V(3"
+status*2	!Unknown!8'
+%
+V V(?	"
+body*2	!Unknown!8
+V V(@	*‰/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/order/offre/OffreOrderController.java

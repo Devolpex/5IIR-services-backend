@@ -1,0 +1,6 @@
+org._iir.backend.modules.user.UserController#create(Lorg/_iir/backend/modules/user/CreateUserREQ;)LResponseEntity;
+false
+2818348941fc638142a53d4a2a8e920b
+==
+!unknownMethod! !unknownMethod!
+create org._iir.backend.modules.user.UserService#create(Lorg/_iir/backend/modules/user/CreateUserREQ;)Lorg/_iir/backend/modules/user/UserDTO;

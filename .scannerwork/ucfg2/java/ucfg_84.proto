@@ -1,0 +1,65 @@
+
+^org._iir.backend.modules.order.offre.OffreOrderServiceImpl#fetchOrdersByUser()Ljava/util/List;•
+Š/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/order/offre/OffreOrderServiceImpl.javah h(0"5*³
+2s4 s(8ž
+›
+s s(9?
+prestataire0org._iir.backend.modules.prestataire.Prestataire"__id*H
+
+__unknown_file (,
+*
+user"org._iir.backend.modules.user.User*
+1*w
+3r r(`
+^
+r) r(9(
+%3"org._iir.backend.modules.user.Role"__id*"
+
+__unknown_file (
+""*
+2
+1*­
+4l. l(2˜
+•
+l l(39
+	demandeur,org._iir.backend.modules.demandeur.Demandeur"__id*H
+
+__unknown_file (,
+*
+user"org._iir.backend.modules.user.User*
+1*¼
+5j j(±
+®
+j j(/
+%0)org._iir.backend.modules.user.UserService"__id*k
+
+__unknown_file (O*M<
+:org._iir.backend.modules.order.offre.OffreOrderServiceImpl"
+userService„
+j j(6(
+%1"org._iir.backend.modules.user.User"dorg._iir.backend.modules.user.UserService#getAuthenticatedUser()Lorg/_iir/backend/modules/user/User;*M
+
+__unknown_file (1
+/
+%0)org._iir.backend.modules.user.UserService2getAuthenticatedUser()‡
+„
+j j(7*
+user"org._iir.backend.modules.user.User"__id*F
+
+__unknown_file (*
+(
+%1"org._iir.backend.modules.user.User`
+^
+k" k(0(
+%2"org._iir.backend.modules.user.Role"__id*"
+
+__unknown_file (
+""*
+3
+4*%
+1
+€ €("
+
+€ €(
+""B><
+:org._iir.backend.modules.order.offre.OffreOrderServiceImplH

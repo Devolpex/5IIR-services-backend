@@ -1,0 +1,25 @@
+
+p
+getOrdersByUser[org._iir.backend.modules.order.offre.OffreOrderController#getOrdersByUser()LResponseEntity; OMthisF/ F(>"9org._iir.backend.modules.order.offre.OffreOrderControllerMthisF/ F(>"9org._iir.backend.modules.order.offre.OffreOrderController"íy
+w
+G% G(,"*
+#get-field# service#get-field# service*2:org._iir.backend.modules.order.offre.OffreOrderServiceImpl£
+ 
+G% G(@orders"u
+fetchOrdersByUser^org._iir.backend.modules.order.offre.OffreOrderServiceImpl#fetchOrdersByUser()Ljava/util/List; *2java.util.List8V
+T
+H H("8
+#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
+L
+H% H(/"0
+#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!>
+<
+H% H(2" 
+#get-field# OK#get-field# OK*2	!Unknown!)
+'
+H H(3"
+status*2	!Unknown!8'
+%
+H H(@"
+body*2	!Unknown!8
+H H(A*‰/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/order/offre/OffreOrderController.java

@@ -1,0 +1,6 @@
+org._iir.backend.modules.account.AccountService#getInfos()Lorg/_iir/backend/modules/account/AccountDTO;
+false
+4145b42bd1ffaeb22e5aa1edbf7ae1b3
+==
+!unknownMethod! !unknownMethod!
+getAuthenticatedUser org._iir.backend.modules.user.UserService#getAuthenticatedUser()Lorg/_iir/backend/modules/user/User;

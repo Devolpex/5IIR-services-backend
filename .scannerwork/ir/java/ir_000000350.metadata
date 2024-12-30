@@ -1,0 +1,5 @@
+org._iir.backend.modules.proposition.PropositionService#findPage(LPageable;)LPage;
+false
+1330c186ab6fabee236deb8f14735724
+java.lang.UnsupportedOperationException#<init>(Ljava/lang/String;)V
+java.lang.UnsupportedOperationException#instance-init#

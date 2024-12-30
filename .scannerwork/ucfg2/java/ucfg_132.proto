@@ -1,0 +1,49 @@
+
+1org._iir.backend.modules.user.UserDTO#hashCode()I
+u/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/user/UserDTO.java1 1("1*û
+12 2(w
+u
+2 2(
+%0java.lang.Long"__id*M
+
+__unknown_file (1*/'
+%org._iir.backend.modules.user.UserDTO"
+id|
+z
+2  2(%
+%1java.lang.String"__id*P
+
+__unknown_file (4*2'
+%org._iir.backend.modules.user.UserDTO"
+emailŽ
+‹
+2' 2(+(
+%2"org._iir.backend.modules.user.Role"__id*O
+
+__unknown_file (3*1'
+%org._iir.backend.modules.user.UserDTO"
+roleÏ
+Ì
+2 2(=	
+%3int",java.util.Objects#hash([Ljava/lang/Object;)I*1
+
+__unknown_file ("
+java.util.Objects*2
+
+__unknown_file (
+
+%0java.lang.Long*4
+
+__unknown_file (
+
+%1java.lang.String*F
+
+__unknown_file (*
+(
+%2"org._iir.backend.modules.user.Role*"
+
+__unknown_file (
+"""
+2 2(>
+""B)'
+%org._iir.backend.modules.user.UserDTOHX

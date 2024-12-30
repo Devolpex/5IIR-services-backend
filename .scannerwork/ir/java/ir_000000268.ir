@@ -1,0 +1,17 @@
+
+H
+onCreate<org._iir.backend.modules.proposition.Proposition#onCreate()VFDthis. .("0org._iir.backend.modules.proposition.PropositionDthis. .("0org._iir.backend.modules.proposition.Proposition"êh
+f
+/ /(,"?
+now6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;(2java.time.LocalDateTimeB
+@
+/ /(,".
+#set-field# createdAt#set-field# createdAt*h
+f
+0 0(,"?
+now6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;(2java.time.LocalDateTimeB
+@
+0 0(,".
+#set-field# updatedAt#set-field# updatedAt*
+
+1 1(*€/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/proposition/Proposition.java

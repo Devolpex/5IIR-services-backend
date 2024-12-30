@@ -1,0 +1,35 @@
+
+Norg._iir.backend.modules.prestataire_services.PrestataireServiceID#hashCode()Iù
+í/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/prestataire_services/PrestataireServiceID.java   ("1*«
+1! !(†
+ù
+! !()
+%0java.lang.Long"__id*u
+
+__unknown_file (Y*WD
+Borg._iir.backend.modules.prestataire_services.PrestataireServiceID"
+prestataireIdú
+ô
+!+ !(4
+%1java.lang.Long"__id*q
+
+__unknown_file (U*SD
+Borg._iir.backend.modules.prestataire_services.PrestataireServiceID"
+	serviceId·
+ﬁ
+! !(5	
+%2int",java.util.Objects#hash([Ljava/lang/Object;)I*1
+
+__unknown_file ("
+java.util.Objects*2
+
+__unknown_file (
+
+%0java.lang.Long*2
+
+__unknown_file (
+
+%1java.lang.Long"
+! !(6
+""BFD
+Borg._iir.backend.modules.prestataire_services.PrestataireServiceIDHX

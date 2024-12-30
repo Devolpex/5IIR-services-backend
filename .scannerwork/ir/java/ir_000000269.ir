@@ -1,0 +1,11 @@
+
+H
+onUpdate<org._iir.backend.modules.proposition.Proposition#onUpdate()VFDthis4 4("0org._iir.backend.modules.proposition.PropositionDthis4 4("0org._iir.backend.modules.proposition.Proposition"¼h
+f
+5 5(,"?
+now6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;(2java.time.LocalDateTimeB
+@
+5 5(,".
+#set-field# updatedAt#set-field# updatedAt*
+
+6 6(*€/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/proposition/Proposition.java

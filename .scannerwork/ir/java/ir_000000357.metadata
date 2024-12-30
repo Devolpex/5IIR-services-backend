@@ -1,0 +1,6 @@
+org._iir.backend.modules.proposition.PropositionController#findById(Ljava/lang/Long;)LResponseEntity;
+false
+a146f991c5e1b3f6bea966ddcce0633b
+==
+!unknownMethod! !unknownMethod!
+findById org._iir.backend.modules.proposition.PropositionService#findById(Ljava/lang/Long;)Lorg/_iir/backend/modules/proposition/dto/PropositionDto;

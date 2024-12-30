@@ -1,0 +1,6 @@
+org._iir.backend.modules.order.offre.OffreOrderController#getOrder(Ljava/lang/Long;)LResponseEntity;
+false
+d95723938d8564ade733ba458a1530e1
+==
+!unknownMethod! !unknownMethod!
+findById org._iir.backend.modules.order.offre.OffreOrderServiceImpl#findById(Ljava/lang/Long;)Lorg/_iir/backend/modules/order/dto/OffreOrderDTO;

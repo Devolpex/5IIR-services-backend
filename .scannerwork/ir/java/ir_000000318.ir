@@ -1,0 +1,64 @@
+
+í
+createSecureToken{org._iir.backend.modules.auth.mail.DefaultSecureTokenService#createSecureToken()Lorg/_iir/backend/modules/user/SecureToken; îPthis (("<org._iir.backend.modules.auth.mail.DefaultSecureTokenService"@<org._iir.backend.modules.auth.mail.DefaultSecureTokenServicePthis (("<org._iir.backend.modules.auth.mail.DefaultSecureTokenService"ôJ
+H
+ (o
+tokenValue"
+#new-object##new-object#2java.lang.StringG
+E
+ (o"2
+#instance-init#java.lang.String#instance-init#*8F
+D
+' (-"(
+#get-field# Base64#get-field# Base64*2	!Unknown!p
+n
+H (_"J
+##get-field# DEFAULT_TOKEN_GENERATOR##get-field# DEFAULT_TOKEN_GENERATOR*2BytesKeyGenerator-
++
+H (m"
+generateKey*2	!Unknown!8<
+:
+' (n"
+encodeBase64URLSafeString*2	!Unknown!8N
+L
+ (o	"8
+<init>,java.lang.String#<init>(Ljava/lang/String;)V(*8d
+b
+ "  (3
+secureToken"
+#new-object##new-object#2)org._iir.backend.modules.user.SecureToken`
+^
+ "  (3"K
+#instance-init#8org._iir.backend.modules.user.SecureToken#instance-init#*
+8R
+P
+ "  (3"=
+<init>3org._iir.backend.modules.user.SecureToken#<init>()V*
+8+
+)
+! !(("
+
+setToken*
+2	!Unknown!8h
+f
+"0 "(C"?
+now6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;(2java.time.LocalDateTime\
+Z
+"P "(d"D
+ #get-field# tokenValiditySeconds #get-field# tokenValiditySeconds*2int
+}
+"0 "(e"P
+plusSeconds?java.time.LocalDateTime#plusSeconds(J)Ljava/time/LocalDateTime;(*2java.time.LocalDateTime8á
+Ñ
+"! "(f"^
+fromTjava.time.LocalDate#from(Ljava/time/temporal/TemporalAccessor;)Ljava/time/LocalDate;(*2java.time.LocalDate/
+-
+" "(g"
+setExpiredAt*
+2	!Unknown!8≠
+™
+# #()"è
+saveSecureTokenzorg._iir.backend.modules.auth.mail.DefaultSecureTokenService#saveSecureToken(Lorg/_iir/backend/modules/user/SecureToken;)V *
+2void8
+$ $(
+*å/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/auth/mail/DefaultSecureTokenService.java

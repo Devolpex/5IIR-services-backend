@@ -1,0 +1,6 @@
+org._iir.backend.modules.user.UserController#fetchList()LResponseEntity;
+false
+60984cf6abd7ec942459e29c99577727
+==
+!unknownMethod! !unknownMethod!
+findList org._iir.backend.modules.user.UserService#findList()Ljava/util/List;

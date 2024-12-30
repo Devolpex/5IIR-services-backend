@@ -1,0 +1,6 @@
+org._iir.backend.modules.proposition.PropositionController#create(Lorg/_iir/backend/modules/proposition/dto/PropositionReq;)LResponseEntity;
+false
+080b5ce4e2d7016058823df58a8cc15d
+==
+!unknownMethod! !unknownMethod!
+create org._iir.backend.modules.proposition.PropositionService#create(Lorg/_iir/backend/modules/proposition/dto/PropositionReq;)Lorg/_iir/backend/modules/proposition/dto/PropositionDto;

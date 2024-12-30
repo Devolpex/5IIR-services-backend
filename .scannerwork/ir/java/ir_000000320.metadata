@@ -1,0 +1,5 @@
+org._iir.backend.modules.auth.mail.DefaultSecureTokenService#findByToken(Ljava/lang/String;)Lorg/_iir/backend/modules/user/SecureToken;
+false
+3f7be98ce9a95f354455131c9075f256
+==
+findByToken org._iir.backend.modules.user.SecureTokenRepository#findByToken(Ljava/lang/String;)Lorg/_iir/backend/modules/user/SecureToken;

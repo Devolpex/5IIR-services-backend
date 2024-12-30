@@ -1,0 +1,31 @@
+
+m
+MyAuthExceptionXorg._iir.backend.exception.MyAuthException#<init>(Ljava/lang/String;Ljava/lang/String;)V Â>this ("*org._iir.backend.exception.MyAuthException'message ()"java.lang.String%field+ (7"java.lang.String"0,org._iir.backend.handler.errors.MyErrorField>this ("*org._iir.backend.exception.MyAuthException'message ()"java.lang.String%field+ (7"java.lang.String"Ÿ(
+&
+ ("
+super*2	!Unknown!8i
+g
+ (",
+#get-field# response#get-field# response*2(org._iir.backend.handler.errors.MyErrRes)
+'
+# (9"	
+builder*2	!Unknown!8*
+(
+# (J"	
+message*2	!Unknown!8(
+&
+# (W	"
+field*2	!Unknown!8'
+%
+# (_
+"
+build*	2	!Unknown!8"
+ 
+ (`"
+of*
+2	!Unknown!,
+*
+ (a"
+	setErrors*2	!Unknown!8
+
+ (*z/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/exception/MyAuthException.java

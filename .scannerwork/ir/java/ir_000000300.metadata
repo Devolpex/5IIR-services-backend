@@ -1,0 +1,10 @@
+org._iir.backend.modules.order.demande.DemandeOrderServiceImpl#fetchOrdersByUser()Ljava/util/List;
+false
+922873e99cc739b761a70ac6f040d103
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+==
+!unknownMethod! !unknownMethod!
+add java.util.List#add(Ljava/lang/Object;)Z
+getAuthenticatedUser org._iir.backend.modules.user.UserService#getAuthenticatedUser()Lorg/_iir/backend/modules/user/User;
+toDTO org._iir.backend.modules.order.demande.DemandeOrderMapperImpl#toDTO(Lorg/_iir/backend/modules/order/demande/DemandeOrder;)Lorg/_iir/backend/modules/order/dto/DemandeOrderDTO;

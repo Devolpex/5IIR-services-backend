@@ -1,0 +1,6 @@
+org._iir.backend.modules.account.AccountController#getInfos()LResponseEntity;
+false
+c07405836981408fa8dc4ecc6c682518
+==
+!unknownMethod! !unknownMethod!
+getInfos org._iir.backend.modules.account.AccountService#getInfos()Lorg/_iir/backend/modules/account/AccountDTO;

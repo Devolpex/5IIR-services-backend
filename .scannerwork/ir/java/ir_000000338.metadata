@@ -1,0 +1,6 @@
+org._iir.backend.modules.account.AccountController#updateInfos(Lorg/_iir/backend/modules/account/InfoREQ;)LResponseEntity;
+false
+f210d8afb97a1846c8e00ed34a9dab79
+==
+!unknownMethod! !unknownMethod!
+updateInfos org._iir.backend.modules.account.AccountService#updateInfos(Lorg/_iir/backend/modules/account/InfoREQ;)Lorg/_iir/backend/modules/account/AccountDTO;

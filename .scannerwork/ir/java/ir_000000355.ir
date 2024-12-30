@@ -1,0 +1,25 @@
+
+™
+createŒorg._iir.backend.modules.proposition.PropositionController#create(Lorg/_iir/backend/modules/proposition/dto/PropositionReq;)LResponseEntity;  Nthis. (4":org._iir.backend.modules.proposition.PropositionControllerNrequest5 (_"7org._iir.backend.modules.proposition.dto.PropositionReqNthis. (4":org._iir.backend.modules.proposition.PropositionControllerNrequest5 (_"7org._iir.backend.modules.proposition.dto.PropositionReq"æv
+t
+! (("*
+#get-field# service#get-field# service*27org._iir.backend.modules.proposition.PropositionService•
+’
+! (8dto"¿
+create²org._iir.backend.modules.proposition.PropositionService#create(Lorg/_iir/backend/modules/proposition/dto/PropositionReq;)Lorg/_iir/backend/modules/proposition/dto/PropositionDto; *27org._iir.backend.modules.proposition.dto.PropositionDto8V
+T
+ (!"8
+#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
+L
+) (3"0
+#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!H
+F
+) (;"*
+#get-field# CREATED#get-field# CREATED*2	!Unknown!)
+'
+ (<"
+status*2	!Unknown!8'
+%
+ (F	"
+body*2	!Unknown!8
+ (G	*Š/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/proposition/PropositionController.java

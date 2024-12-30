@@ -1,0 +1,7 @@
+org._iir.backend.modules.user.UserService#saveUserByRole(Lorg/_iir/backend/modules/user/User;)Lorg/_iir/backend/modules/user/User;
+false
+ef489bdcd4aaccb45287ae2acc862cf2
+org._iir.backend.modules.user.UserService#saveDemandeur(Lorg/_iir/backend/modules/user/User;)Lorg/_iir/backend/modules/user/User;
+org._iir.backend.modules.user.UserService#savePrestataire(Lorg/_iir/backend/modules/user/User;)Lorg/_iir/backend/modules/user/User;
+==
+!unknownMethod! !unknownMethod!

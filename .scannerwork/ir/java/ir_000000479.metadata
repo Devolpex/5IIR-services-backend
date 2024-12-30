@@ -1,0 +1,6 @@
+org._iir.backend.modules.order.demande.DemandeOrderController#cancel(Ljava/lang/Long;)LResponseEntity;
+false
+2f07595873c6db5f9cc6d32cd4477fef
+==
+!unknownMethod! !unknownMethod!
+cancelOrder org._iir.backend.modules.order.demande.DemandeOrderServiceImpl#cancelOrder(Ljava/lang/Long;)Lorg/_iir/backend/modules/order/dto/DemandeOrderDTO;

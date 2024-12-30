@@ -1,0 +1,29 @@
+
+•org._iir.backend.modules.demande.DemandeMapperImpl#toDTO(Lorg/_iir/backend/modules/demande/Demande;)Lorg/_iir/backend/modules/demande/dto/DemandeDTO;
+‚/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/demande/DemandeMapperImpl.java ("startingBlock*º
+startingBlock (+¥
+¢
+ (
+%0"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*P
+
+__unknown_file (4
+2
+entity(org._iir.backend.modules.demande.Demander
+p
+$ (*2
+entity(org._iir.backend.modules.demande.Demande"__annotation*"
+
+__unknown_file (
+
+%0*
+1*!
+1 ("
+ #(
+"":>
+ (*2
+entity(org._iir.backend.modules.demande.DemandeB64
+2org._iir.backend.modules.demande.DemandeMapperImplH

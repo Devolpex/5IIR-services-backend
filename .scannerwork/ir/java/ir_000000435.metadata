@@ -1,0 +1,6 @@
+org._iir.backend.modules.user.UserService#instance-init#
+false
+93392d918957b7bbb98f76c07ee576f9
+java.lang.Class#getName()Ljava/lang/String;
+java.lang.Object#getClass()Ljava/lang/Class;
+java.util.logging.Logger#getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;

@@ -1,0 +1,19 @@
+
+]
+getAuthoritiesIorg._iir.backend.modules.user.User#getAuthorities()Ljava/util/Collection; 86this)2 )(@""org._iir.backend.modules.user.User6this)2 )(@""org._iir.backend.modules.user.User"âD
+B
+* *(>"
+#new-object##new-object#2SimpleGrantedAuthority[
+Y
+*2 *(6"$
+#get-field# role#get-field# role*2"org._iir.backend.modules.user.RoleX
+V
+*2 *(="1
+name'java.lang.Enum#name()Ljava/lang/String;(*2java.lang.String8/
+-
+* *(>"
+<init>!unknownMethod!*8"
+ 
+* *(?"
+of*2	!Unknown!
+* *(@*r/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/user/User.java

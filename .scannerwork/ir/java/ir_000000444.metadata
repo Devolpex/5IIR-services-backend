@@ -1,0 +1,6 @@
+org._iir.backend.modules.user.UserService#search(Ljava/lang/String;LPageable;)LPage;
+false
+667e8e964fc44f1001f869df3fe60e9a
+==
+!unknownMethod! !unknownMethod!
+search org._iir.backend.modules.user.UserRepository#search(Ljava/lang/String;LPageable;)LPage;

@@ -1,0 +1,19 @@
+
+?
+hashCode1org._iir.backend.modules.user.UserDTO#hashCode()I ;9this1 1("%org._iir.backend.modules.user.UserDTO9this1 1("%org._iir.backend.modules.user.UserDTO"ªC
+A
+2 2(" 
+#get-field# id#get-field# id*2java.lang.LongK
+I
+2  2(%"&
+#get-field# email#get-field# email*2java.lang.String[
+Y
+2' 2(+"$
+#get-field# role#get-field# role*2"org._iir.backend.modules.user.RoleV
+T
+2- 2(<":
+#get-field# accountVerified#get-field# accountVerified*2booleanQ
+O
+2 2(="6
+hash,java.util.Objects#hash([Ljava/lang/Object;)I(*2int
+2 2(>*u/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/user/UserDTO.java

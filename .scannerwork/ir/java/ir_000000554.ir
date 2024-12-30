@@ -1,0 +1,25 @@
+
+W
+	fetchListHorg._iir.backend.modules.user.UserController#fetchList()LResponseEntity; B@this") "(2",org._iir.backend.modules.user.UserController@this") "(2",org._iir.backend.modules.user.UserController"¾p
+n
+# #()"2
+#get-field# userService#get-field# userService*2)org._iir.backend.modules.user.UserService~
+|
+# #(4users"R
+findListDorg._iir.backend.modules.user.UserService#findList()Ljava/util/List; *2java.util.List8V
+T
+$ $("8
+#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
+L
+$% $(/"0
+#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!>
+<
+$% $(2" 
+#get-field# OK#get-field# OK*2	!Unknown!)
+'
+$ $(3"
+status*2	!Unknown!8'
+%
+$ $(?"
+body*2	!Unknown!8
+$ $(@*|/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/user/UserController.java

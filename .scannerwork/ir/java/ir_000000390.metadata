@@ -1,0 +1,6 @@
+org._iir.backend.handler.GlobalExceptionHandler#handleOwnNotFoundException(Lorg/_iir/backend/exception/OwnNotFoundException;)LResponseEntity;
+false
+94fc00cb0980c6601b1a614d63bdd567
+==
+!unknownMethod! !unknownMethod!
+getResponse org._iir.backend.exception.OwnNotFoundException#getResponse()Lorg/_iir/backend/handler/OwnErrorResponse;

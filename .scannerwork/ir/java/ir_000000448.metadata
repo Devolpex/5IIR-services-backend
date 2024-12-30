@@ -1,0 +1,7 @@
+org._iir.backend.modules.user.UserService#handleNotFound(Ljava/lang/String;)Lorg/_iir/backend/exception/OwnNotFoundException;
+false
+7162560a5ff7aea213c4661f8c311ea1
+org._iir.backend.exception.OwnNotFoundException#<init>(Ljava/lang/String;)V
+org._iir.backend.exception.OwnNotFoundException#instance-init#
+==
+warning java.util.logging.Logger#warning(Ljava/lang/String;)V

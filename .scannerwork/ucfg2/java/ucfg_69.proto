@@ -1,0 +1,16 @@
+
+borg._iir.backend.exception.MyAuthException#getResponse()Lorg/_iir/backend/handler/errors/MyErrRes;Ñ
+z/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/exception/MyAuthException.java ("1*Î
+1 (ù
+ö
+ (.
+%0(org._iir.backend.handler.errors.MyErrRes"__id*X
+
+__unknown_file (<*:,
+*org._iir.backend.exception.MyAuthException"
+
+response"<
+ (0
+.
+%0(org._iir.backend.handler.errors.MyErrResB.,
+*org._iir.backend.exception.MyAuthExceptionH

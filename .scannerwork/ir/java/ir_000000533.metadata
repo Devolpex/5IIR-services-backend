@@ -1,0 +1,9 @@
+org._iir.backend.modules.offre.Offre#hashCode()I
+false
+f0b1da5e8b34a75adb060efad35d3f0a
+java.lang.Double#hashCode()I
+java.lang.Long#hashCode()I
+java.lang.String#hashCode()I
+==
+hashCode java.util.List#hashCode()I
+hashCode org._iir.backend.modules.prestataire_services.PrestataireServices#hashCode()I

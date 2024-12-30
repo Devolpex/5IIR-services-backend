@@ -1,0 +1,25 @@
+
+P
+toStringBorg._iir.backend.modules.user.UserDTO#toString()Ljava/lang/String; ª*", accountVerified="java.lang.String"id="java.lang.String 
+"UserDTO{"java.lang.String'}'char!", email='"java.lang.String'\''char
+	", role="java.lang.String	", nom='"java.lang.String9this ("%org._iir.backend.modules.user.UserDTO9this ("%org._iir.backend.modules.user.UserDTO"ØC
+A
+ (" 
+#get-field# id#get-field# id*2java.lang.LongG
+E
+ (""
+#get-field# nom#get-field# nom*2java.lang.StringK
+I
+ (#	"&
+#get-field# email#get-field# email*2java.lang.String[
+Y
+ ( "$
+#get-field# role#get-field# role*2"org._iir.backend.modules.user.RoleV
+T
+' (6":
+#get-field# accountVerified#get-field# accountVerified*2boolean6
+4
+ ("
+	#binop +#	#binop +#*	
+
+ (*u/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/user/UserDTO.java

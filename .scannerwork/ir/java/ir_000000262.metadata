@@ -1,0 +1,7 @@
+org._iir.backend.security.CustomAuthProvider#authenticate(LAuthentication;)LAuthentication;
+false
+7ee779c01f41e9191c2154c4eb12dafe
+!unknownMethod!
+==
+!unknownMethod! !unknownMethod!
+loadUserByUsername org._iir.backend.security.CustomUserDetailsService#loadUserByUsername(Ljava/lang/String;)LUserDetails;

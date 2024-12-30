@@ -1,0 +1,6 @@
+org._iir.backend.security.JwtProvider#extractClaim(Ljava/lang/String;Ljava/util/function/Function;)Ljava/lang/Object;
+false
+ee4637e25727f2b5396ed357b9e23118
+==
+!unknownMethod! !unknownMethod!
+extractAllClaims org._iir.backend.security.JwtProvider#extractAllClaims(Ljava/lang/String;)LClaims;

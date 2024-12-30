@@ -1,0 +1,167 @@
+
+^org._iir.backend.modules.prestataire_services.PrestataireServiceID#equals(Ljava/lang/Object;)Zù
+í/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/prestataire_services/PrestataireServiceID.java ("startingBlock*“
+2 (ú
+ô
+ ((
+%8java.lang.Long"__id*q
+
+__unknown_file (U*SD
+Borg._iir.backend.modules.prestataire_services.PrestataireServiceID"
+	serviceId¢
+ü
+* (8
+%9java.lang.Long"__id*w
+
+__unknown_file ([*Y
+J
+thatBorg._iir.backend.modules.prestataire_services.PrestataireServiceID"
+	serviceId˘
+ˆ
+ (9
+%10boolean"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*1
+
+__unknown_file ("
+java.util.Objects*2
+
+__unknown_file (
+
+%8java.lang.Long*2
+
+__unknown_file (
+
+%9java.lang.Long*
+1*Û
+3; (<î
+ë
+ (=J
+thatBorg._iir.backend.modules.prestataire_services.PrestataireServiceID"__id*3
+
+__unknown_file (
+
+ojava.lang.Object†
+ù
+ (+
+%5java.lang.Long"__id*u
+
+__unknown_file (Y*WD
+Borg._iir.backend.modules.prestataire_services.PrestataireServiceID"
+prestataireId¶
+£
+- (?
+%6java.lang.Long"__id*{
+
+__unknown_file (_*]
+J
+thatBorg._iir.backend.modules.prestataire_services.PrestataireServiceID"
+prestataireId¯
+ı
+ (@
+%7boolean"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*1
+
+__unknown_file ("
+java.util.Objects*2
+
+__unknown_file (
+
+%5java.lang.Long*2
+
+__unknown_file (
+
+%6java.lang.Long*
+2
+1*Ç
+startingBlock (#â
+Ü
+ (
+%11"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*3
+
+__unknown_file (
+
+ojava.lang.ObjectV
+T
+! ("
+ojava.lang.Object"__annotation*#
+
+__unknown_file (
+
+%11*
+8*!
+4 ("
+ (
+""*®
+5 (!¬ø
+ (#
+%2java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*b
+
+__unknown_file (FD
+Borg._iir.backend.modules.prestataire_services.PrestataireServiceID2
+getClass()ìê
+' (3
+%3java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*3
+
+__unknown_file (
+
+ojava.lang.Object2
+getClass()µ
+≤
+ (3
+%4boolean"	__compare*"
+
+__unknown_file (
+!=*3
+
+__unknown_file (
+
+%2java.lang.Class*3
+
+__unknown_file (
+
+%3java.lang.Class*
+3
+4*º
+6 (§
+°
+ (
+%1boolean"	__compare*"
+
+__unknown_file (
+==*3
+
+__unknown_file (
+
+ojava.lang.Object*"
+
+__unknown_file (
+""*
+4
+5*!
+7 ("
+ (
+""*¸
+8 (‰
+·
+ (
+%0boolean"	__compare*"
+
+__unknown_file (
+==*b
+
+__unknown_file (FD
+Borg._iir.backend.modules.prestataire_services.PrestataireServiceID*3
+
+__unknown_file (
+
+ojava.lang.Object*
+6
+7*!
+1 (:"
+ (:
+"":!
+ ("
+ojava.lang.ObjectBFD
+Borg._iir.backend.modules.prestataire_services.PrestataireServiceIDHX

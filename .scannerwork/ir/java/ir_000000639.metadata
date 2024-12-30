@@ -1,0 +1,7 @@
+org._iir.backend.security.SecurityConfig#authenticationProvider()LAuthenticationProvider;
+false
+67ef13373e7e20e30996b95f9f2d92e9
+!unknownMethod!
+org._iir.backend.security.CustomAuthProvider#instance-init#
+==
+passwordEncoder org._iir.backend.security.SecurityConfig#passwordEncoder()LPasswordEncoder;

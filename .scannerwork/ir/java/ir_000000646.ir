@@ -1,0 +1,27 @@
+
+™
+updateŒorg._iir.backend.modules.demande.DemandeController#update(Ljava/lang/Long;Lorg/_iir/backend/modules/demande/dto/DemandeREQ;)LResponseEntity; ²Fthis$& $(,"2org._iir.backend.modules.demande.DemandeController id$- $(B"java.lang.LongFrequest% %(2"/org._iir.backend.modules.demande.dto.DemandeREQFthis$& $(,"2org._iir.backend.modules.demande.DemandeController id$- $(B"java.lang.LongFrequest% %(2"/org._iir.backend.modules.demande.dto.DemandeREQ"Ån
+l
+& &( "*
+#get-field# service#get-field# service*2/org._iir.backend.modules.demande.DemandeService†
+ƒ
+& &(4dto"·
+updateªorg._iir.backend.modules.demande.DemandeService#update(Lorg/_iir/backend/modules/demande/dto/DemandeREQ;Ljava/lang/Long;)Lorg/_iir/backend/modules/demande/dto/DemandeDTO; *2/org._iir.backend.modules.demande.dto.DemandeDTO8V
+T
+' '("8
+#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
+L
+'% '(/"0
+#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!>
+<
+'% '(2" 
+#get-field# OK#get-field# OK*2	!Unknown!)
+'
+' '(3	"
+status*2	!Unknown!8'
+%
+' '(=
+"
+body*	2	!Unknown!8
+' '(>
+*‚/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/demande/DemandeController.java

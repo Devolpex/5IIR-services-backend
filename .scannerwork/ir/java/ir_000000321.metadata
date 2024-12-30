@@ -1,0 +1,5 @@
+org._iir.backend.modules.auth.mail.DefaultSecureTokenService#removeToken(Ljava/lang/String;)V
+false
+1dd83c569b04917e368ff1887f39ba26
+==
+deleteByToken org._iir.backend.modules.user.SecureTokenRepository#deleteByToken(Ljava/lang/String;)Ljava/lang/Long;

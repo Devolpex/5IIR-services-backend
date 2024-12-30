@@ -1,0 +1,6 @@
+org._iir.backend.modules.user.UserService#savePrestataire(Lorg/_iir/backend/modules/user/User;)Lorg/_iir/backend/modules/user/User;
+false
+30da78ab4ee810248e30eff5b2915425
+==
+!unknownMethod! !unknownMethod!
+getPassword org._iir.backend.modules.user.User#getPassword()Ljava/lang/String;

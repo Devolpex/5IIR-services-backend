@@ -1,0 +1,17 @@
+
+@
+onCreate4org._iir.backend.modules.demande.Demande#onCreate()V><this- -("(org._iir.backend.modules.demande.Demande<this- -("(org._iir.backend.modules.demande.Demande"êh
+f
+. .(,"?
+now6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;(2java.time.LocalDateTimeB
+@
+. .(,".
+#set-field# createdAt#set-field# createdAt*h
+f
+/ /(,"?
+now6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;(2java.time.LocalDateTimeB
+@
+/ /(,".
+#set-field# updatedAt#set-field# updatedAt*
+
+0 0(*x/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/demande/Demande.java

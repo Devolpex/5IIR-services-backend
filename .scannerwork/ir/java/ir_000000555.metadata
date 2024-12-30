@@ -1,0 +1,8 @@
+org._iir.backend.modules.user.UserController#fetchPage(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)LResponseEntity;
+false
+9cf065100da2f2dd940a947efd6086e1
+java.lang.String#toUpperCase()Ljava/lang/String;
+==
+!unknownMethod! !unknownMethod!
+findPage org._iir.backend.modules.user.UserService#findPage(LPageable;)LPage;
+search org._iir.backend.modules.user.UserService#search(Ljava/lang/String;LPageable;)LPage;

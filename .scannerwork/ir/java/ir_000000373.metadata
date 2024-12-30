@@ -1,0 +1,6 @@
+org._iir.backend.security.CustomUserDetailsService#loadUserByUsername(Ljava/lang/String;)LUserDetails;
+false
+268f2537036b9998127319bbd901e052
+java.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;
+==
+findByEmail org._iir.backend.modules.user.UserRepository#findByEmail(Ljava/lang/String;)Ljava/util/Optional;

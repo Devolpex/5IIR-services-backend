@@ -1,0 +1,21 @@
+
+Jorg._iir.backend.modules.demande.DemandeService#findList()Ljava/util/List;‰
+/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/demande/DemandeService.javas s($"1*ƒ
+1u u(®
+«
+u u(8
+%02org._iir.backend.modules.demande.DemandeRepository"__id*_
+
+__unknown_file (C*A1
+/org._iir.backend.modules.demande.DemandeService"
+
+repository®
+«
+w w(, 
+%1java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*;
+
+__unknown_file ("
+java.util.stream.Collectors"
+u w(.
+""B31
+/org._iir.backend.modules.demande.DemandeServiceH

@@ -1,0 +1,25 @@
+
+O
+toStringAorg._iir.backend.modules.offre.Offre#toString()Ljava/lang/String; •+"Offre [description="java.lang.String"]"java.lang.String", id="java.lang.String 
+
+", tarif="java.lang.String-", prestataireService="java.lang.String!", orders="java.lang.String8this( (("$org._iir.backend.modules.offre.Offre8this( (("$org._iir.backend.modules.offre.Offre"—W
+U
+)' )(2"2
+#get-field# description#get-field# description*2java.lang.StringC
+A
+)? )(A" 
+#get-field# id#get-field# id*2java.lang.LongK
+I
+)R )(X"(
+#get-field# orders#get-field# orders*2java.util.List—
+”
+* *($	"@
+#get-field# prestataireService#get-field# prestataireService*2Aorg._iir.backend.modules.prestataire_services.PrestataireServicesK
+I
+*4 *(9"&
+#get-field# tarif#get-field# tarif*2java.lang.Double3
+1
+) *(?"
+	#binop +#	#binop +#*	
+
+) *(@*t/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/offre/Offre.java

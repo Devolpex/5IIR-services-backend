@@ -1,0 +1,6 @@
+org._iir.backend.modules.order.offre.OffreOrderServiceImpl#fetchOrdersByUser()Ljava/util/List;
+false
+d46790a7d5d7b84c3f11fc285082937b
+==
+!unknownMethod! !unknownMethod!
+getAuthenticatedUser org._iir.backend.modules.user.UserService#getAuthenticatedUser()Lorg/_iir/backend/modules/user/User;

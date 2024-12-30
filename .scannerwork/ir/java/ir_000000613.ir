@@ -1,0 +1,94 @@
+
+~
+generateTokenkorg._iir.backend.security.JwtProvider#generateToken(Lorg/_iir/backend/modules/user/User;)Ljava/lang/String; Á24int"role"java.lang.String9this. .("%org._iir.backend.security.JwtProvider6user.  .()""org._iir.backend.modules.user.User"!java.util.concurrent.TimeUnit9this. .("%org._iir.backend.security.JwtProvider6user.  .()""org._iir.backend.modules.user.User"˜L
+J
+/* /(9extraClaims"
+#new-object##new-object#2java.util.HashMapH
+F
+/* /(9"3
+#instance-init# java.util.HashMap#instance-init#*8<
+:
+/* /(9"'
+<init>java.util.HashMap#<init>()V(*8)
+'
+0  0(."	
+getRole*2	!Unknown!8'
+%
+0 0(/"
+put*2	!Unknown!8B
+@
+1 1(	"$
+#get-field# Jwts#get-field# Jwts*2	!Unknown!)
+'
+1 1(
+"	
+builder*	2	!Unknown!8,
+*
+1 2('"
+	setClaims*
+2	!Unknown!8*
+(
+3 3(+"
+
+getEmail*2	!Unknown!8-
++
+1 3(,"
+
+setSubject*2	!Unknown!8<
+:
+4 4(A"
+#new-object##new-object#2java.util.DateE
+C
+4 4(A"0
+#instance-init#java.util.Date#instance-init#*8R
+P
+4& 4(@"<
+currentTimeMillis%java.lang.System#currentTimeMillis()J(2long;
+9
+4 4(A"%
+<init>java.util.Date#<init>(J)V(*8.
+,
+1 4(B"
+setIssuedAt*2	!Unknown!8<
+:
+5 5(a"
+#new-object##new-object#2java.util.DateE
+C
+5 5(a"0
+#instance-init#java.util.Date#instance-init#*8R
+P
+5( 5(B"<
+currentTimeMillis%java.lang.System#currentTimeMillis()J(2longX
+V
+5E 5(S"&
+#get-field# HOURS#get-field# HOURS*2java.util.concurrent.TimeUnitT
+R
+5E 5(`"8
+toMillis*java.util.concurrent.TimeUnit#toMillis(J)J(*2long8*
+(
+5( 5(`"
+	#binop +#	#binop +#*;
+9
+5 5(a"%
+<init>java.util.Date#<init>(J)V(*80
+.
+1 5(b"
+setExpiration*2	!Unknown!8{
+y
+6 6(&"S
+
+getSignKeyEorg._iir.backend.security.JwtProvider#getSignKey()Ljava/security/Key;*2java.security.Key8^
+\
+6( 6(:"@
+#get-field# SignatureAlgorithm#get-field# SignatureAlgorithm*2	!Unknown!D
+B
+6( 6(@"&
+#get-field# HS256#get-field# HS256*2	!Unknown!,
+*
+1 6(A "
+
+signWith*2	!Unknown!8)
+'
+1 7(!"	
+compact* 2	!Unknown!8
+1 7(!*u/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/security/JwtProvider.java

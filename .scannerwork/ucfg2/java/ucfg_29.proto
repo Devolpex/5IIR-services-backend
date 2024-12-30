@@ -1,0 +1,129 @@
+
+Oorg._iir.backend.modules.order.demande.DemandeOrder#equals(Ljava/lang/Object;)ZŽ
+ƒ/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/order/demande/DemandeOrder.java2 2("startingBlock*!
+26 6("
+6 6(
+""*›
+35 5(#³°
+5 5(%
+%2java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*S
+
+__unknown_file (75
+3org._iir.backend.modules.order.demande.DemandeOrder2
+getClass()•’
+5) 5(7
+%3java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*5
+
+__unknown_file (
+
+objjava.lang.Object2
+getClass()µ
+²
+5 5(7
+%4boolean"	__compare*"
+
+__unknown_file (
+!=*3
+
+__unknown_file (
+
+%2java.lang.Class*3
+
+__unknown_file (
+
+%3java.lang.Class*
+2
+1*„
+startingBlock2 2(%Š
+‡
+1 1(
+%8"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+objjava.lang.ObjectW
+U
+2! 2($
+objjava.lang.Object"__annotation*"
+
+__unknown_file (
+
+%8*
+6*¾
+45 5(¦
+£
+5 5(
+%1boolean"	__compare*"
+
+__unknown_file (
+==*5
+
+__unknown_file (
+
+objjava.lang.Object*"
+
+__unknown_file (
+""*
+2
+3*!
+54 4("
+4 4(
+""*ï
+63 3(×
+Ô
+3 3(
+%0boolean"	__compare*"
+
+__unknown_file (
+==*S
+
+__unknown_file (75
+3org._iir.backend.modules.order.demande.DemandeOrder*5
+
+__unknown_file (
+
+objjava.lang.Object*
+4
+5*’
+17+ 7(.‡
+„
+7 7(/;
+that3org._iir.backend.modules.order.demande.DemandeOrder"__id*5
+
+__unknown_file (
+
+objjava.lang.Object†
+ƒ
+8 8(
+%5java.lang.Long"__id*[
+
+__unknown_file (?*=5
+3org._iir.backend.modules.order.demande.DemandeOrder"
+idŒ
+‰
+8 8( 
+%6java.lang.Long"__id*a
+
+__unknown_file (E*C
+;
+that3org._iir.backend.modules.order.demande.DemandeOrder"
+idÌÉ
+8 8(!
+%7boolean"*java.lang.Long#equals(Ljava/lang/Object;)Z*2
+
+__unknown_file (
+
+%5java.lang.Long*2
+
+__unknown_file (
+
+%6java.lang.Long2equals(Ljava/lang/Object;)"
+8 8("
+"":#
+2 2($
+objjava.lang.ObjectB75
+3org._iir.backend.modules.order.demande.DemandeOrderHX

@@ -1,0 +1,299 @@
+
+0org._iir.backend.modules.offre.Offre#hashCode()I~
+t/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/offre/Offre.javaU U("16*∂
+13X X(Vv
+t
+Y$ Y(&
+%6java.lang.Long"__id*L
+
+__unknown_file (0*.&
+$org._iir.backend.modules.offre.Offre"
+id£
+†
+Y$ Y(.
+%7boolean"	__compare*"
+
+__unknown_file (
+==*2
+
+__unknown_file (
+
+%6java.lang.Long*"
+
+__unknown_file (
+""*
+11
+12*Ÿ
+14X? X(JÅ
+
+X? X(J
+%5java.lang.String"__id*U
+
+__unknown_file (9*7&
+$org._iir.backend.modules.offre.Offre"
+descriptionwu
+X? X(U	
+%4int"java.lang.String#hashCode()I*4
+
+__unknown_file (
+
+%5java.lang.String2
+hashCode()F
+D
+X? X(U	
+%2int"__id*'
+
+__unknown_file (
+	
+%4int*
+13*\
+15X; X(<F
+D
+X; X(<	
+%2int"__id*'
+
+__unknown_file (
+	
+%3int*
+13*ƒ
+16V V(Å
+
+X$ X(/
+%0java.lang.String"__id*U
+
+__unknown_file (9*7&
+$org._iir.backend.modules.offre.Offre"
+description•
+¢
+X$ X(7
+%1boolean"	__compare*"
+
+__unknown_file (
+==*4
+
+__unknown_file (
+
+%0java.lang.String*"
+
+__unknown_file (
+""*
+14
+15*!
+1\ \(J"
+] ](
+""*’
+2\9 \(>|
+z
+\9 \(>
+%29java.lang.Double"__id*O
+
+__unknown_file (3*1&
+$org._iir.backend.modules.offre.Offre"
+tarifyw
+\9 \(I
+
+%28int"java.lang.Double#hashCode()I*5
+
+__unknown_file (
+
+%29java.lang.Double2
+hashCode()H
+F
+\9 \(I
+
+%26int"__id*(
+
+__unknown_file (
+
+
+%28int*
+1*\
+3\5 \(6H
+F
+\5 \(6
+
+%26int"__id*(
+
+__unknown_file (
+
+
+%27int*
+1*Ω
+4[ [(d|
+z
+\$ \()
+%24java.lang.Double"__id*O
+
+__unknown_file (3*1&
+$org._iir.backend.modules.offre.Offre"
+tarifß
+§
+\$ \(1
+%25boolean"	__compare*"
+
+__unknown_file (
+==*5
+
+__unknown_file (
+
+%24java.lang.Double*"
+
+__unknown_file (
+""*
+2
+3*˘
+5[F [(Xª
+∏
+[F [(XH
+%23Aorg._iir.backend.modules.prestataire_services.PrestataireServices"__id*\
+
+__unknown_file (@*>&
+$org._iir.backend.modules.offre.Offre"
+prestataireService‹Ÿ
+[F [(c
+
+%22int"Morg._iir.backend.modules.prestataire_services.PrestataireServices#hashCode()I*f
+
+__unknown_file (J
+H
+%23Aorg._iir.backend.modules.prestataire_services.PrestataireServices2
+hashCode()H
+F
+[F [(c
+
+%20int"__id*(
+
+__unknown_file (
+
+
+%22int*
+4*\
+6[B [(CH
+F
+[B [(C
+
+%20int"__id*(
+
+__unknown_file (
+
+
+%21int*
+4*Æ
+7Z Z(Lª
+∏
+[$ [(6H
+%18Aorg._iir.backend.modules.prestataire_services.PrestataireServices"__id*\
+
+__unknown_file (@*>&
+$org._iir.backend.modules.offre.Offre"
+prestataireServiceÿ
+’
+[$ [(>
+%19boolean"	__compare*"
+
+__unknown_file (
+==*f
+
+__unknown_file (J
+H
+%18Aorg._iir.backend.modules.prestataire_services.PrestataireServices*"
+
+__unknown_file (
+""*
+5
+6*–
+8Z: Z(@{
+y
+Z: Z(@
+%17java.util.List"__id*P
+
+__unknown_file (4*2&
+$org._iir.backend.modules.offre.Offre"
+ordersus
+Z: Z(K
+
+%16int"java.util.List#hashCode()I*3
+
+__unknown_file (
+
+%17java.util.List2
+hashCode()H
+F
+Z: Z(K
+
+%14int"__id*(
+
+__unknown_file (
+
+
+%16int*
+7*\
+9Z6 Z(7H
+F
+Z6 Z(7
+
+%14int"__id*(
+
+__unknown_file (
+
+
+%15int*
+7*ª
+10Y Y(D{
+y
+Z$ Z(*
+%12java.util.List"__id*P
+
+__unknown_file (4*2&
+$org._iir.backend.modules.offre.Offre"
+orders•
+¢
+Z$ Z(2
+%13boolean"	__compare*"
+
+__unknown_file (
+==*3
+
+__unknown_file (
+
+%12java.util.List*"
+
+__unknown_file (
+""*
+8
+9*Õ
+11Y6 Y(8w
+u
+Y6 Y(8
+%11java.lang.Long"__id*L
+
+__unknown_file (0*.&
+$org._iir.backend.modules.offre.Offre"
+idus
+Y6 Y(C
+
+%10int"java.lang.Long#hashCode()I*3
+
+__unknown_file (
+
+%11java.lang.Long2
+hashCode()G
+E
+Y6 Y(C	
+%8int"__id*(
+
+__unknown_file (
+
+
+%10int*
+10*\
+12Y2 Y(3F
+D
+Y2 Y(3	
+%8int"__id*'
+
+__unknown_file (
+	
+%9int*
+10B(&
+$org._iir.backend.modules.offre.OffreHX

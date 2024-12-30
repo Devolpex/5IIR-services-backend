@@ -1,0 +1,43 @@
+
+K
+
+corsFilter;org._iir.backend.config.CorsConfig#corsFilter()LCorsFilter; ƒ"*"java.lang.Stringtrueboolean"/**"java.lang.String6this ( ""org._iir.backend.config.CorsConfig6this ( ""org._iir.backend.config.CorsConfig"îG
+E
+# (:config"
+#new-object##new-object#2CorsConfiguration.
+,
+# (:"
+<init>!unknownMethod!*8[
+Y
+  (-"6
+#get-field# allowedOrigin#get-field# allowedOrigin*2java.lang.String3
+1
+ (."
+addAllowedOrigin*2	!Unknown!86
+4
+ (("
+setAllowCredentials*2	!Unknown!83
+1
+ ($	"
+addAllowedMethod*2	!Unknown!83
+1
+ ($
+"
+addAllowedHeader*2	!Unknown!8U
+S
+1 (Vsource"
+#new-object##new-object#2UrlBasedCorsConfigurationSource.
+,
+1 (V"
+<init>!unknownMethod!*8=
+;
+ (7"
+registerCorsConfiguration*2	!Unknown!88
+6
+ (%"
+#new-object##new-object#2
+CorsFilter/
+-
+ (%"
+<init>!unknownMethod!*8
+ (&*r/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/config/CorsConfig.java

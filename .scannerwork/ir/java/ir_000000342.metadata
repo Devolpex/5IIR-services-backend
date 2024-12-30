@@ -1,0 +1,7 @@
+org._iir.backend.security.AuthEntryPointJwt#commence(LHttpServletRequest;LHttpServletResponse;LAuthenticationException;)V
+false
+0809b3c4e8e626cbc8da19cd90da9450
+!unknownMethod!
+==
+!unknownMethod! !unknownMethod!
+getResponse org._iir.backend.exception.MyAuthException#getResponse()Lorg/_iir/backend/handler/errors/MyErrRes;

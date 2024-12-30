@@ -1,0 +1,7 @@
+organization=devolpex
+projectKey=Devolpex_5IIR-services-platform-backend
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.58190
+dashboardUrl=https://sonarcloud.io/dashboard?id=Devolpex_5IIR-services-platform-backend
+ceTaskId=AZOHrnQYr8v97l8lIFRP
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZOHrnQYr8v97l8lIFRP

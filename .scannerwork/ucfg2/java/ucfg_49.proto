@@ -1,0 +1,79 @@
+
+{org._iir.backend.modules.auth.mail.DefaultSecureTokenService#createSecureToken()Lorg/_iir/backend/modules/user/SecureToken;—
+Œ/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/auth/mail/DefaultSecureTokenService.java (("1*¸
+1' (-64
+  (&
+%0java.lang.String"java.lang.String›
+˜
+ (o
+%1",java.lang.String#<init>(Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%0java.lang.String*"
+
+__unknown_file (
+""h
+f
+ (p
+
+tokenValuejava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.Stringhf
+ &  (1/
+%2)org._iir.backend.modules.user.SecureToken")org._iir.backend.modules.user.SecureToken—
+”
+ "  (3
+%3"3org._iir.backend.modules.user.SecureToken#<init>()V*M
+
+__unknown_file (1
+/
+%2)org._iir.backend.modules.user.SecureTokenœ
+™
+   (48
+secureToken)org._iir.backend.modules.user.SecureToken"__id*M
+
+__unknown_file (1
+/
+%2)org._iir.backend.modules.user.SecureToken
+š
+"0 "(C
+%4java.time.LocalDateTime"6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;*7
+
+__unknown_file ("
+java.time.LocalDateTimeÞÛ
+"0 "(e
+%5java.time.LocalDateTime"?java.time.LocalDateTime#plusSeconds(J)Ljava/time/LocalDateTime;*;
+
+__unknown_file (
+
+%4java.time.LocalDateTime*"
+
+__unknown_file (
+""2plusSeconds(J)ð
+í
+"! "(f
+%6java.time.LocalDate"Tjava.time.LocalDate#from(Ljava/time/temporal/TemporalAccessor;)Ljava/time/LocalDate;*3
+
+__unknown_file ("
+java.time.LocalDate*;
+
+__unknown_file (
+
+%5java.time.LocalDateTime‰†
+# #()
+
+%7void"zorg._iir.backend.modules.auth.mail.DefaultSecureTokenService#saveSecureToken(Lorg/_iir/backend/modules/user/SecureToken;)V*\
+
+__unknown_file (@>
+<org._iir.backend.modules.auth.mail.DefaultSecureTokenService*V
+
+__unknown_file (:
+8
+secureToken)org._iir.backend.modules.user.SecureToken2<saveSecureToken(Lorg/_iir/backend/modules/user/SecureToken;)"F
+$ $(:
+8
+secureToken)org._iir.backend.modules.user.SecureTokenB@>
+<org._iir.backend.modules.auth.mail.DefaultSecureTokenServiceH

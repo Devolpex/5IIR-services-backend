@@ -1,0 +1,9 @@
+org._iir.backend.security.JwtProvider#resolveToken(LHttpServletRequest;)Ljava/lang/String;
+false
+0983e752c1901c3686df1396b34a227c
+java.lang.String#length()I
+java.lang.String#startsWith(Ljava/lang/String;)Z
+java.lang.String#substring(I)Ljava/lang/String;
+java.lang.String#trim()Ljava/lang/String;
+==
+!unknownMethod! !unknownMethod!

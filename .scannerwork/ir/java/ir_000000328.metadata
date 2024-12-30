@@ -1,0 +1,6 @@
+org._iir.backend.modules.user.User#getAuthorities()Ljava/util/Collection;
+false
+96974f336623c80747744fc8dbabadf8
+!unknownMethod!
+java.lang.Enum#name()Ljava/lang/String;
+java.util.List#of(Ljava/lang/Object;)Ljava/util/List;

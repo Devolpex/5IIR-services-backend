@@ -1,0 +1,26 @@
+
+˜
+buildVerificationUrl~org._iir.backend.modules.auth.mail.AccountVerificationEmailContext#buildVerificationUrl(Ljava/lang/String;Ljava/lang/String;)V ¤'"verificationURL"java.lang.String,"/registration/verify"java.lang.String"token"java.lang.StringVthis ($"Borg._iir.backend.modules.auth.mail.AccountVerificationEmailContext'baseUrl% (9"java.lang.String+verifyToken; (S"java.lang.StringVthis ($"Borg._iir.backend.modules.auth.mail.AccountVerificationEmailContext'baseUrl% (9"java.lang.String+verifyToken; (S"java.lang.String"×b
+`
+ (/"D
+ #get-field# UriComponentsBuilder #get-field# UriComponentsBuilder*2	!Unknown!.
+,
+ (D"
+fromHttpUrl*2	!Unknown!8'
+%
+  (-"
+path*2	!Unknown!8.
+,
+ !(1	"
+
+queryParam*2	!Unknown!82
+0
+ "(
+url"
+toUriString*	2	!Unknown!8¥
+¢
+# #(#"{
+putrorg._iir.backend.modules.auth.mail.AbsractEmailContext#put(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object; *
+2java.lang.Object8
+
+$ $(*’/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/auth/mail/AccountVerificationEmailContext.java

@@ -1,0 +1,6 @@
+org._iir.backend.modules.proposition.PropositionController#delete(Ljava/lang/Long;)LResponseEntity;
+false
+96a2ca00313c928db3847f16502b55d4
+==
+!unknownMethod! !unknownMethod!
+delete org._iir.backend.modules.proposition.PropositionService#delete(Ljava/lang/Long;)V

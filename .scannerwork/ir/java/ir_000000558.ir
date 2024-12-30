@@ -1,0 +1,25 @@
+
+_
+fetchTorg._iir.backend.modules.user.UserController#fetch(Ljava/lang/Long;)LResponseEntity; d@thisL# L((",org._iir.backend.modules.user.UserController idL) L(>"java.lang.Long@thisL# L((",org._iir.backend.modules.user.UserController idL) L(>"java.lang.Long"þp
+n
+M M(""2
+#get-field# userService#get-field# userService*2)org._iir.backend.modules.user.UserService½
+º
+M M(/user"y
+findByIdkorg._iir.backend.modules.user.UserService#findById(Ljava/lang/Long;)Lorg/_iir/backend/modules/user/UserDTO; *2%org._iir.backend.modules.user.UserDTO8V
+T
+N N("8
+#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
+L
+N% N(/"0
+#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!>
+<
+N% N(2" 
+#get-field# OK#get-field# OK*2	!Unknown!)
+'
+N N(3"
+status*2	!Unknown!8'
+%
+N N(>	"
+body*2	!Unknown!8
+N N(?	*|/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/user/UserController.java

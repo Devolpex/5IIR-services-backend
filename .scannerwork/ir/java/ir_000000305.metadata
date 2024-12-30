@@ -1,0 +1,4 @@
+org._iir.backend.security.JwtFilter#isPublicPath(Ljava/lang/String;)Z
+false
+68e9721bf2921f2dc017d3790293bdcd
+java.lang.String#startsWith(Ljava/lang/String;)Z

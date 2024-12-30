@@ -1,0 +1,59 @@
+
+korg._iir.backend.modules.user.UserService#findById(Ljava/lang/Long;)Lorg/_iir/backend/modules/user/UserDTO;…
+y/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/user/UserService.javaˆ ˆ("startingBlock*„
+startingBlock
+ˆ ˆ($‰
+†
+
+‡ ‡(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*2
+
+__unknown_file (
+
+idjava.lang.LongV
+T
+
+ˆ! ˆ(#
+idjava.lang.Long"__annotation*"
+
+__unknown_file (
+
+%2*
+1*å
+1
+‰ ‰(¨
+¥
+
+‰ ‰(2
+%0,org._iir.backend.modules.user.UserRepository"__id*]
+
+__unknown_file (A*?+
+)org._iir.backend.modules.user.UserService"
+userRepository…
+‚
+
+‹ ‹([
+%1"__declareFunction*[
+
+__unknown_file (?=
+;__sonar_lambda_22$org._iir.backend.modules.user.UserServiceŠ
+‡
+
+__unknown_file (
+
+%1"
+UserService.this"__id*I
+
+__unknown_file (-+
+)org._iir.backend.modules.user.UserService"
+
+‰ ‹(]
+"":"
+
+ˆ ˆ(#
+idjava.lang.LongB-+
+)org._iir.backend.modules.user.UserServiceH

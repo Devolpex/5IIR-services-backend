@@ -1,0 +1,25 @@
+
+r
+cancelforg._iir.backend.modules.order.demande.DemandeOrderController#cancel(Ljava/lang/Long;)LResponseEntity; uQthis\+ \(1"=org._iir.backend.modules.order.demande.DemandeOrderController id\2 \(G"java.lang.LongQthis\+ \(1"=org._iir.backend.modules.order.demande.DemandeOrderController id\2 \(G"java.lang.Long"Ã}
+{
+]  ]('"*
+#get-field# service#get-field# service*2>org._iir.backend.modules.order.demande.DemandeOrderServiceImplõ
+ò
+]  ](7order"¢
+cancelOrderorg._iir.backend.modules.order.demande.DemandeOrderServiceImpl#cancelOrder(Ljava/lang/Long;)Lorg/_iir/backend/modules/order/dto/DemandeOrderDTO; *22org._iir.backend.modules.order.dto.DemandeOrderDTO8V
+T
+^ ^("8
+#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
+L
+^% ^(/"0
+#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!>
+<
+^% ^(2" 
+#get-field# OK#get-field# OK*2	!Unknown!)
+'
+^ ^(3"
+status*2	!Unknown!8'
+%
+^ ^(?	"
+body*2	!Unknown!8
+^ ^(@	*/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/order/demande/DemandeOrderController.java

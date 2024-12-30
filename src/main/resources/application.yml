@@ -2,9 +2,9 @@ spring:
   application:
     name: service-platform
   datasource:
-    url: jdbc:mysql://localhost:3310/jaim_db?createDatabaseIfNotExist=true
-    username: user
-    password: password
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3310/jaim_db?createDatabaseIfNotExist=true}
+    username: ${SPRING_DATASOURCE_USERNAME:user}
+    password: ${SPRING_DATASOURCE_PASSWORD:password}
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
@@ -16,8 +16,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: devolpex@gmail.com
-    password: jqxpocbfpqtietqq
+    username: ${MAIL_USERNAME:devolpex@gmail.com}
+    password: ${MAIL_PASSWORD:jqxpocbfpqtietqq}
     properties:
       mail:
         smtp:
@@ -28,7 +28,7 @@ server:
   port: 8081
 
 cors:
-  allowed-origin: http://localhost:4200
+  allowed-origin: ${CORS_ALLOWED_ORIGIN:http://localhost:4200}
 
 logging:
   level:

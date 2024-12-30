@@ -1,0 +1,25 @@
+
+r
+deleteforg._iir.backend.modules.order.demande.DemandeOrderController#delete(Ljava/lang/Long;)LResponseEntity; uQthisL  L(&"=org._iir.backend.modules.order.demande.DemandeOrderController idL' L(<"java.lang.LongQthisL  L(&"=org._iir.backend.modules.order.demande.DemandeOrderController idL' L(<"java.lang.Long"ﬁ}
+{
+M M("*
+#get-field# service#get-field# service*2>org._iir.backend.modules.order.demande.DemandeOrderServiceImplÄ
+~
+M M("d
+deleteXorg._iir.backend.modules.order.demande.DemandeOrderServiceImpl#delete(Ljava/lang/Long;)V *2void8V
+T
+N N("8
+#get-field# ResponseEntity#get-field# ResponseEntity*2	!Unknown!N
+L
+N% N(/"0
+#get-field# HttpStatus#get-field# HttpStatus*2	!Unknown!N
+L
+N% N(:"0
+#get-field# NO_CONTENT#get-field# NO_CONTENT*2	!Unknown!)
+'
+N N(;"
+status*2	!Unknown!8'
+%
+N N(C	"
+build*2	!Unknown!8
+N N(D	*ç/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/order/demande/DemandeOrderController.java

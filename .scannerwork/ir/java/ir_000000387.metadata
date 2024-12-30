@@ -1,0 +1,6 @@
+org._iir.backend.handler.GlobalExceptionHandler#handleOwnNotSaveException(Lorg/_iir/backend/exception/OwnNotSaveException;)LResponseEntity;
+false
+a4dc05111dd7838eda1b7f059103ed6e
+==
+!unknownMethod! !unknownMethod!
+getResponse org._iir.backend.exception.OwnNotSaveException#getResponse()Lorg/_iir/backend/handler/OwnErrorResponse;

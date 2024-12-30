@@ -1,0 +1,11 @@
+org._iir.backend.modules.account.AccountService#updateInfos(Lorg/_iir/backend/modules/account/InfoREQ;)Lorg/_iir/backend/modules/account/AccountDTO;
+false
+428d93267e41cf5060fc16125437fbb7
+org._iir.backend.exception.OwnAlreadyExistsException#<init>(Ljava/lang/String;Ljava/lang/String;)V
+org._iir.backend.exception.OwnAlreadyExistsException#instance-init#
+org._iir.backend.modules.account.InfoREQ#email()Ljava/lang/String;
+org._iir.backend.modules.account.InfoREQ#nom()Ljava/lang/String;
+==
+!unknownMethod! !unknownMethod!
+existsByEmail org._iir.backend.modules.user.UserRepository#existsByEmail(Ljava/lang/String;)Z
+getAuthenticatedUser org._iir.backend.modules.user.UserService#getAuthenticatedUser()Lorg/_iir/backend/modules/user/User;

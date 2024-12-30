@@ -1,0 +1,9 @@
+org._iir.backend.modules.order.demande.DemandeOrderServiceImpl#cancelOrder(Ljava/lang/Long;)Lorg/_iir/backend/modules/order/dto/DemandeOrderDTO;
+false
+37b7544e8c6f290cdb60ed02339ba88a
+org._iir.backend.exception.OwnNotFoundException#<init>(Ljava/lang/String;)V
+org._iir.backend.exception.OwnNotFoundException#instance-init#
+==
+!unknownMethod! !unknownMethod!
+getAuthenticatedUser org._iir.backend.modules.user.UserService#getAuthenticatedUser()Lorg/_iir/backend/modules/user/User;
+toDTO org._iir.backend.modules.order.demande.DemandeOrderMapperImpl#toDTO(Lorg/_iir/backend/modules/order/demande/DemandeOrder;)Lorg/_iir/backend/modules/order/dto/DemandeOrderDTO;

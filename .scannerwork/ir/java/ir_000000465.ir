@@ -1,0 +1,16 @@
+
+l
+toString^org._iir.backend.modules.prestataire_services.PrestataireServices#toString()Ljava/lang/String; ð"", service="java.lang.String&", prestataire="java.lang.String0"PrestataireServices [id="java.lang.String"]"java.lang.StringUthis1 1("Aorg._iir.backend.modules.prestataire_services.PrestataireServicesUthis1 1("Aorg._iir.backend.modules.prestataire_services.PrestataireServices"œw
+u
+2, 2(." 
+#get-field# id#get-field# id*2Borg._iir.backend.modules.prestataire_services.PrestataireServiceIDw
+u
+2D 2(O"2
+#get-field# prestataire#get-field# prestataire*20org._iir.backend.modules.prestataire.Prestataireg
+e
+2a 2(h"*
+#get-field# service#get-field# service*2(org._iir.backend.modules.service.Service/
+-
+2 2(n	"
+	#binop +#	#binop +#*
+2 2(o	*‘/home/marouane-dbibih/Desktop/5IIR-services-platfrom/backend/src/main/java/org/_iir/backend/modules/prestataire_services/PrestataireServices.java

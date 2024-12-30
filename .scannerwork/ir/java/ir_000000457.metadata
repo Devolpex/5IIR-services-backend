@@ -1,0 +1,11 @@
+org._iir.backend.modules.auth.AuthService#verifyAccount(Ljava/lang/String;)Z
+false
+5ecde8629294f29095bafffddb1145d3
+java.util.Objects#isNull(Ljava/lang/Object;)Z
+org._iir.backend.exception.InvalidTokenException#<init>(Ljava/lang/String;)V
+org._iir.backend.exception.InvalidTokenException#instance-init#
+==
+!unknownMethod! !unknownMethod!
+findByToken org._iir.backend.modules.auth.mail.SecureTokenService#findByToken(Ljava/lang/String;)Lorg/_iir/backend/modules/user/SecureToken;
+isExpired org._iir.backend.modules.user.SecureToken#isExpired()Z
+removeToken org._iir.backend.modules.auth.mail.SecureTokenService#removeToken(Ljava/lang/String;)V

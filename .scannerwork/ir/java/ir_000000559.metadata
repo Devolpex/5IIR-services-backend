@@ -1,0 +1,6 @@
+org._iir.backend.modules.user.UserController#delete(Ljava/lang/Long;)LResponseEntity;
+false
+5ed79a261b1abeadc876b80be475525f
+==
+!unknownMethod! !unknownMethod!
+delete org._iir.backend.modules.user.UserService#delete(Ljava/lang/Long;)V

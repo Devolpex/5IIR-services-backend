@@ -1,0 +1,13 @@
+org._iir.backend.modules.auth.mail.DefaultSecureTokenService#createSecureToken()Lorg/_iir/backend/modules/user/SecureToken;
+false
+933a2cb0e7a5d5b439cc3357ef829133
+java.lang.String#<init>(Ljava/lang/String;)V
+java.lang.String#instance-init#
+java.time.LocalDate#from(Ljava/time/temporal/TemporalAccessor;)Ljava/time/LocalDate;
+java.time.LocalDateTime#now()Ljava/time/LocalDateTime;
+java.time.LocalDateTime#plusSeconds(J)Ljava/time/LocalDateTime;
+org._iir.backend.modules.user.SecureToken#<init>()V
+org._iir.backend.modules.user.SecureToken#instance-init#
+==
+!unknownMethod! !unknownMethod!
+saveSecureToken org._iir.backend.modules.auth.mail.DefaultSecureTokenService#saveSecureToken(Lorg/_iir/backend/modules/user/SecureToken;)V

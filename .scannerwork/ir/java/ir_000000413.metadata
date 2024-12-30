@@ -1,0 +1,11 @@
+org._iir.backend.modules.account.AccountService#updatePassword(Lorg/_iir/backend/modules/account/PasswordREQ;)V
+false
+32941c6aa653cf4e2e78e829e7951a05
+org._iir.backend.exception.PasswordIncorrectException#<init>(Ljava/lang/String;Ljava/lang/String;)V
+org._iir.backend.exception.PasswordIncorrectException#instance-init#
+org._iir.backend.modules.account.PasswordREQ#newPassword()Ljava/lang/String;
+org._iir.backend.modules.account.PasswordREQ#oldPassword()Ljava/lang/String;
+==
+!unknownMethod! !unknownMethod!
+getAuthenticatedUser org._iir.backend.modules.user.UserService#getAuthenticatedUser()Lorg/_iir/backend/modules/user/User;
+getPassword org._iir.backend.modules.user.User#getPassword()Ljava/lang/String;
