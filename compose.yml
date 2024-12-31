@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  # MySQL service
+  mysql:
+    image: mysql:8.0
+    container_name: 5iir_services_mysql_container
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: jaim_db
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3360:3306"
+    volumes:
+      - 5iir-services-mysql-data:/var/lib/mysql
+    networks:
+      - 5iir-services-net
+  # Backend service
+  backend:
+    image: devolpex/5ir-services:v1.0.0
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+    container_name: 5iir_services_backend_container
+    ports:
+      - "6060:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/jaim_db?createDatabaseIfNotExist=true
+      SPRING_DATASOURCE_USERNAME: user
+      SPRING_DATASOURCE_PASSWORD: password
+      MAIL_USERNAME: devolpex@gmail.com
+      MAIL_PASSWORD: jqxpocbfpqtietqq
+      CORS_ALLOWED_ORIGIN: http://localhost:4200
+    networks:
+      - 5iir-services-net
+    depends_on:
+      - mysql
+
+volumes:
+  5iir-services-mysql-data:
+
+networks:
+  5iir-services-net:
+    driver: bridge
