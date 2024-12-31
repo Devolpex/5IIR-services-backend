@@ -1,6 +1,8 @@
 package org._iir.backend.modules.demandeur;
 
 import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 import org._iir.backend.modules.demande.dto.DemandeDTO;
 import org._iir.backend.modules.order.dto.DemandeOrderDTO;
@@ -71,9 +73,32 @@ public class DemandeurService {
      * Service to fetch demandes order by demandeur
      */
     public List<DemandeOrderDTO> getDemandesOrderByDemandeur() {
+        // Retrieve the authenticated user (Demandeur)
         Demandeur demandeur = (Demandeur) userService.getAuthenticatedUser();
 
-        return null;
+        // Fetch the demandes and map them to DemandeOrderDTOs
+        return demandeur.getDemandes().stream()
+                .flatMap(demande -> demande.getPropositions().stream()
+                        .map(proposition -> proposition.getDemandeOrder()) // Get DemandeOrder
+                        .filter(Objects::nonNull) // Filter out null DemandeOrders
+                        .map(order -> DemandeOrderDTO.builder()
+                                .id(order.getId())
+                                .orderDate(order.getOrderDate())
+                                .status(order.getStatus())
+                                .demande(org._iir.backend.modules.order.dto.DemandeDTO.builder()
+                                        .id(order.getProposition().getDemande().getId())
+                                        .service(order.getProposition().getDemande().getService())
+                                        .description(order.getProposition().getDemande().getDescription())
+                                        .lieu(order.getProposition().getDemande().getLieu())
+                                        .dateDisponible(order.getProposition().getDemande().getDateDisponible())
+                                        .build())
+                                .demandeur(UserDTO.builder()
+                                        .id(order.getProposition().getDemande().getDemandeur().getId())
+                                        .email(order.getProposition().getDemande().getDemandeur().getEmail())
+                                        .nom(order.getProposition().getDemande().getDemandeur().getNom())
+                                        .build())
+                                .build()))
+                .collect(Collectors.toList());
     }
 
 }

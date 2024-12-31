@@ -25,4 +25,10 @@ public class DemandeurController {
     public List<OffreOrderDTO> getOffreOrdersOfDemandeur() {
         return demandeurService.getOffreOrdersOfDemandeur();
     }
+
+    // Endpoint to fetch demandeur's demandes orders
+    @GetMapping("/api/demandeur/orders/demandes")
+    public List<OffreOrderDTO> getDemandeOrdersOfDemandeur() {
+        return demandeurService.getOffreOrdersOfDemandeur();
+    }
 }
