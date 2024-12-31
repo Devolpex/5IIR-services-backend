@@ -64,14 +64,6 @@ public class OffreOrderController {
         return ResponseEntity.status(HttpStatus.OK).body(orders);
     }
 
-    // Fetch order by user
-    @GetMapping("/user")
-    @PreAuthorize("hasAnyAuthority('DEMANDEUR', 'PRESTATAIRE')")
-    public ResponseEntity<List<OffreOrderDTO>> getOrdersByUser() {
-        List<OffreOrderDTO> orders = service.fetchOrdersByUser();
-        return ResponseEntity.status(HttpStatus.OK).body(orders);
-    }
-
     @PatchMapping("/confirm/{id}")
     @PreAuthorize("hasAuthority('PRESTATAIRE')")
     public ResponseEntity<OffreOrderDTO> confirmOrder(@PathVariable Long id) {
