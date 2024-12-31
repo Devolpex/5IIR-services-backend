@@ -25,14 +25,14 @@ public class DemandeOrderMapperImpl implements IMapper<DemandeOrder,DemandeOrder
                 .lieu(entity.getProposition().getDemande().getLieu())
                 .dateDisponible(entity.getProposition().getDemande().getDateDisponible())
                 .build();
-        
+
         // Demandeur UserDTO
         UserDTO demandeur = UserDTO.builder()
                 .id(entity.getProposition().getDemande().getDemandeur().getId())
                 .nom(entity.getProposition().getDemande().getDemandeur().getNom())
                 .email(entity.getProposition().getDemande().getDemandeur().getEmail())
                 .build();
-        
+
         // Prestataire UserDTO
         UserDTO prestataire = UserDTO.builder()
                 .id(entity.getProposition().getPrestataire().getId())
@@ -49,5 +49,5 @@ public class DemandeOrderMapperImpl implements IMapper<DemandeOrder,DemandeOrder
                 .prestataire(prestataire)
                 .build();
     }
-    
+
 }
