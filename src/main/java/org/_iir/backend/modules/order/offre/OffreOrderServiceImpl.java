@@ -1,9 +1,7 @@
 package org._iir.backend.modules.order.offre;
 
 import java.util.Date;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 import org._iir.backend.exception.OwnNotFoundException;
 import org._iir.backend.modules.demandeur.Demandeur;
@@ -13,7 +11,6 @@ import org._iir.backend.modules.order.IOrder;
 import org._iir.backend.modules.order.OrderStatus;
 import org._iir.backend.modules.order.dto.OffreOrderDTO;
 import org._iir.backend.modules.prestataire.Prestataire;
-import org._iir.backend.modules.user.Role;
 import org._iir.backend.modules.user.User;
 import org._iir.backend.modules.user.UserService;
 import org.springframework.data.domain.Page;
@@ -98,34 +95,6 @@ public class OffreOrderServiceImpl implements IOrder<OrderOffre, OffreOrderDTO, 
     public Page<OffreOrderDTO> findPage(Pageable pageable) {
         return orderRepository.findAll(pageable)
                 .map(orderMapper::toDTO);
-    }
-
-    @Override
-    public List<OffreOrderDTO> fetchOrdersByUser() {
-        // Get the authenticated user
-        User user = userService.getAuthenticatedUser();
-        if (user.getRole().equals(Role.DEMANDEUR)) {
-            Demandeur demandeur = (Demandeur) user;
-            log.info("Demandeur From Order Service: {}", demandeur);
-            // return demandeur.getOffreOrders()
-            //         .stream()
-            //         .map(orderMapper::toDTO)
-            //         .toList();
-        } else if (user.getRole().equals(Role.PRESTATAIRE)) {
-            Prestataire prestataire = (Prestataire) user;
-            log.info("Prestataire From Order Service: {}", prestataire);
-            // Set<Offre> offres = new HashSet<>();
-            // prestataire.getPrestataireServices()
-            //         .forEach(prestataireService -> {
-            //             offres.addAll(prestataireService.getOffres());
-            //         });
-            // return offres.stream()
-            //         .flatMap(offre -> offre.getOrders().stream())
-            //         .map(orderMapper::toDTO)
-            //         .toList();
-
-        }
-        return null;
     }
 
     @Override
