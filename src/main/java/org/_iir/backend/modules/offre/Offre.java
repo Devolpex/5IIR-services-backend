@@ -3,6 +3,7 @@ package org._iir.backend.modules.offre;
 import java.util.List;
 
 import org._iir.backend.modules.order.offre.OrderOffre;
+import org._iir.backend.modules.prestataire.Prestataire;
 import org._iir.backend.modules.prestataire_services.PrestataireServices;
 
 import jakarta.persistence.*;
@@ -93,5 +94,5 @@ public class Offre {
         return result;
     }
 
- 
+
 }
