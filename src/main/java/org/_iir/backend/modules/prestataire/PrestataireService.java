@@ -5,6 +5,8 @@ import java.util.stream.Collectors;
 
 import org._iir.backend.modules.offre.dto.OffreDTO;
 import org._iir.backend.modules.offre.dto.ServiceDTO;
+import org._iir.backend.modules.order.dto.OffreOrderDTO;
+import org._iir.backend.modules.order.dto.UserDTO;
 import org._iir.backend.modules.user.UserService;
 import org.springframework.stereotype.Service;
 
@@ -52,5 +54,43 @@ public class PrestataireService {
                                 .build()))
                 .collect(Collectors.toList()); // Collect the flat result into a list
     }
+
+    /**
+     * Service to retrieve all orders relatied to her offres associated with a prestataire (service provider)
+     * using the security context.
+     */
+    public List<OffreOrderDTO> getOffersOrdersByPrestataire(){
+        // Retrieve the authenticated user (Prestataire)
+        Prestataire prestataire = (Prestataire) userService.getAuthenticatedUser();
+
+        // Flatten the stream of orders from each PrestataireService and map to OffreOrderDTO
+        return prestataire.getPrestataireServices().stream()
+                .flatMap(ps -> ps.getOffres().stream() // Flatten the nested stream
+                        .flatMap(offre -> offre.getOrders().stream()
+                                .map(order -> OffreOrderDTO.builder()
+                                        .id(order.getId())
+                                        .orderDate(order.getOrderDate())
+                                        .status(order.getStatus())
+                                        // OffreDTO of order package
+                                        .offre(org._iir.backend.modules.order.dto.OffreDTO.builder()
+                                                .id(offre.getId())
+                                                .description(offre.getDescription())
+                                                .tarif(offre.getTarif())
+                                                // ServiceDTO of order package
+                                                .service(org._iir.backend.modules.order.dto.ServiceDTO.builder()
+                                                        .id(ps.getService().getId())
+                                                        .title(ps.getService().getTitle())
+                                                        .build())
+                                                .build())
+                                        .demandeur(UserDTO.builder()
+                                                .id(order.getDemandeur().getId())
+                                                .email(order.getDemandeur().getEmail())
+                                                .nom(order.getDemandeur().getNom())
+                                                .build())
+                                        .build())))
+                .collect(Collectors.toList()); 
+    }
+
+     
 
 }
