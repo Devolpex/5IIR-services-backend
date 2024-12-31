@@ -128,4 +128,11 @@ public class PropositionService implements IService<Proposition, PropositionDto,
     public Page<PropositionDto> findPage(Pageable pageable) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
+
+    public List<PropositionDto> findListByPrestataire(Long id) {
+        return repository.findByPrestataireId(id)
+                .stream()
+                .map(mapper::toDTO)
+                .collect(Collectors.toList());
+    }
 }

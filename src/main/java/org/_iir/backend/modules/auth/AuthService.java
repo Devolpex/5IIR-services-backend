@@ -7,7 +7,6 @@ import org._iir.backend.exception.UserAleradyExistException;
 import org._iir.backend.modules.auth.mail.AccountVerificationEmailContext;
 import org._iir.backend.modules.auth.mail.EmailService;
 import org._iir.backend.modules.auth.mail.SecureTokenService;
-import org._iir.backend.modules.demandeur.Demandeur;
 import org._iir.backend.modules.user.SecureToken;
 import org._iir.backend.modules.user.User;
 import org._iir.backend.modules.user.UserRepository;
@@ -16,7 +15,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -85,6 +83,7 @@ public class AuthService {
         if (Objects.isNull(secureToken) || secureToken.isExpired()) {
             throw new InvalidTokenException("Invalid or expired token");
         }
+        @SuppressWarnings("deprecation")
         User user = userRepository.getById((secureToken.getUser().getId()));
         if (Objects.isNull(user)) {
             throw new InvalidTokenException("User not found");
@@ -109,27 +108,5 @@ public class AuthService {
                 .isVerified(user.isAccountVerified())
                 .build();
     }
-
-    // /**
-    //  * Retrieves the authenticated user from the security context.
-    //  * 
-    //  * @return the authenticated user, or null if no user is authenticated.
-    //  */
-    // public User getAuthenticatedUser() {
-    //     Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-    //     if (authentication != null && authentication.isAuthenticated()) {
-    //         return (User) authentication.getPrincipal();
-    //     }
-    //     return null;
-    // }
-
-    // public Demandeur getAuthenticatedDemandeur() {
-    //     User authenticatedUser = this.getAuthenticatedUser();
-    //     if (authenticatedUser instanceof Demandeur) {
-    //         return (Demandeur) authenticatedUser;
-    //     } else {
-    //         return null;
-    //     }
-    // }
 
 }

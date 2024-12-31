@@ -1,9 +1,7 @@
 package org._iir.backend.modules.order.offre;
 
 import java.util.Date;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 import org._iir.backend.exception.OwnNotFoundException;
 import org._iir.backend.modules.demandeur.Demandeur;
@@ -13,7 +11,6 @@ import org._iir.backend.modules.order.IOrder;
 import org._iir.backend.modules.order.OrderStatus;
 import org._iir.backend.modules.order.dto.OffreOrderDTO;
 import org._iir.backend.modules.prestataire.Prestataire;
-import org._iir.backend.modules.user.Role;
 import org._iir.backend.modules.user.User;
 import org._iir.backend.modules.user.UserService;
 import org.springframework.data.domain.Page;
@@ -101,6 +98,7 @@ public class OffreOrderServiceImpl implements IOrder<OrderOffre, OffreOrderDTO, 
     }
 
     @Override
+
     public List<OffreOrderDTO> fetchOrdersByUser() {
         // Get the authenticated user
         User user = userService.getAuthenticatedUser();
