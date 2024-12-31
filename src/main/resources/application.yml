@@ -2,7 +2,7 @@ spring:
   application:
     name: service-platform
   datasource:
-    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3310/jaim_db?createDatabaseIfNotExist=true}
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3360/jaim_db?createDatabaseIfNotExist=true}
     username: ${SPRING_DATASOURCE_USERNAME:user}
     password: ${SPRING_DATASOURCE_PASSWORD:password}
     driver-class-name: com.mysql.cj.jdbc.Driver
