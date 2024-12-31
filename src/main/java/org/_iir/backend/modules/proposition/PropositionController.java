@@ -59,4 +59,11 @@ public class PropositionController {
             return ResponseEntity.status(HttpStatus.OK).body(dto);
         }
         
+        @PreAuthorize("hasAuthority('PRESTATAIRE')")
+        @GetMapping("/prestataire/{prestataireId}")
+        public ResponseEntity<List<PropositionDto>> findByPrestataireId(
+                @PathVariable Long prestataireId) {
+            List<PropositionDto> dto = service.findListByPrestataire(prestataireId);
+            return ResponseEntity.status(HttpStatus.OK).body(dto);
+        }
 }
