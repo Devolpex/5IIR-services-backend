@@ -109,6 +109,14 @@ public class SecurityConfig {
                         // Offre Endpoints
                         .requestMatchers(HttpMethod.POST, "/api/offres").hasAuthority(PRESTATAIRE)
                         .requestMatchers(ACCOUNT_ENDPOINTS).authenticated()
+
+                        // Services Endpoints
+                        .requestMatchers(HttpMethod.POST, "/api/services").hasAuthority(ADMIN)
+                        .requestMatchers(HttpMethod.PUT, "/api/services/{id}").hasAuthority(ADMIN)
+                        .requestMatchers(HttpMethod.DELETE, "/api/services/{id}").hasAuthority(ADMIN)
+                        .requestMatchers(HttpMethod.GET, "/api/services/{id}").hasAuthority(ADMIN)
+                        .requestMatchers(HttpMethod.GET, "/api/services/list").hasAuthority(ADMIN)
+                        .requestMatchers(HttpMethod.GET, "/api/services").hasAuthority(ADMIN)
                         .anyRequest().authenticated());
                 return http.build();
         }

@@ -98,36 +98,6 @@ public class OffreOrderServiceImpl implements IOrder<OrderOffre, OffreOrderDTO, 
     }
 
     @Override
-
-    public List<OffreOrderDTO> fetchOrdersByUser() {
-        // Get the authenticated user
-        User user = userService.getAuthenticatedUser();
-        if (user.getRole().equals(Role.DEMANDEUR)) {
-            Demandeur demandeur = (Demandeur) user;
-            log.info("Demandeur From Order Service: {}", demandeur);
-            // return demandeur.getOffreOrders()
-            //         .stream()
-            //         .map(orderMapper::toDTO)
-            //         .toList();
-        } else if (user.getRole().equals(Role.PRESTATAIRE)) {
-            Prestataire prestataire = (Prestataire) user;
-            log.info("Prestataire From Order Service: {}", prestataire);
-            // Set<Offre> offres = new HashSet<>();
-            // prestataire.getPrestataireServices()
-            //         .forEach(prestataireService -> {
-            //             offres.addAll(prestataireService.getOffres());
-            //         });
-            // return offres.stream()
-            //         .flatMap(offre -> offre.getOrders().stream())
-            //         .map(orderMapper::toDTO)
-            //         .toList();
-
-        }
-        return null;
-    }
-
-
-    @Override
     public OffreOrderDTO confirmOrder(Long orderId) {
         // Récupérer l'utilisateur authentifié
         User user = userService.getAuthenticatedUser();
