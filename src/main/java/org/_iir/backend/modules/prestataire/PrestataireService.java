@@ -1,10 +1,13 @@
 package org._iir.backend.modules.prestataire;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 import org._iir.backend.modules.offre.dto.OffreDTO;
 import org._iir.backend.modules.offre.dto.ServiceDTO;
+import org._iir.backend.modules.order.dto.DemandeDTO;
+import org._iir.backend.modules.order.dto.DemandeOrderDTO;
 import org._iir.backend.modules.order.dto.OffreOrderDTO;
 import org._iir.backend.modules.order.dto.UserDTO;
 import org._iir.backend.modules.user.UserService;
@@ -90,6 +93,42 @@ public class PrestataireService {
                                         .build())))
                 .collect(Collectors.toList()); 
     }
+
+    public List<DemandeOrderDTO> getDemandesOrdersByPrestataire() {
+        // Retrieve the authenticated user (Prestataire)
+        Prestataire prestataire = (Prestataire) userService.getAuthenticatedUser();
+        
+        return prestataire.getPropositions().stream()
+                .map(proposition -> {
+                    // Check if demandeOrder is null and return null if true
+                    if (proposition.getDemandeOrder() == null) {
+                        return null;  // Return null if no demandeOrder present
+                    }
+                    
+                    // Create DemandeOrderDTO if demandeOrder is not null
+                    return DemandeOrderDTO.builder()
+                            .id(proposition.getDemandeOrder().getId())
+                            .orderDate(proposition.getDemandeOrder().getOrderDate())
+                            .status(proposition.getDemandeOrder().getStatus())
+                            .demande(DemandeDTO.builder()
+                                    .id(proposition.getDemande().getId())
+                                    .description(proposition.getDemande().getDescription())
+                                    .service(proposition.getDemande().getService())
+                                    .dateDisponible(proposition.getDemande().getDateDisponible())
+                                    .lieu(proposition.getDemande().getLieu())
+                                    .build())
+                            .demandeur(UserDTO.builder()
+                                    .id(proposition.getDemande().getDemandeur().getId())
+                                        .email(proposition.getDemande().getDemandeur().getEmail())
+                                        .nom(proposition.getDemande().getDemandeur().getNom())
+                                    .build())
+                            .build();
+                })
+                .filter(Objects::nonNull) 
+                .collect(Collectors.toList());
+    }
+    
+    
 
      
 

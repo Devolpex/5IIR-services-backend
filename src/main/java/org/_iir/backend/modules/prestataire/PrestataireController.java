@@ -3,6 +3,7 @@ package org._iir.backend.modules.prestataire;
 import java.util.List;
 
 import org._iir.backend.modules.offre.dto.OffreDTO;
+import org._iir.backend.modules.order.dto.DemandeOrderDTO;
 import org._iir.backend.modules.order.dto.OffreOrderDTO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -26,5 +27,12 @@ public class PrestataireController {
     @GetMapping("/api/prestataire/orders/offres")
     public List<OffreOrderDTO> getOrdersByPrestataire() {
         return prestataireService.getOffersOrdersByPrestataire();
+    }
+
+    // Endpoint to retrieve all orders related to her demandes associated with a
+    // prestataire (service provider)
+    @GetMapping("/api/prestataire/orders/demandes")
+    public List<DemandeOrderDTO> getDemandesOrdersByPrestataire() {
+        return prestataireService.getDemandesOrdersByPrestataire();
     }
 }
