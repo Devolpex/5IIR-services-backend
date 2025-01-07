@@ -2,6 +2,7 @@ package org._iir.backend.modules.order.offre;
 
 import java.util.List;
 
+import org._iir.backend.modules.order.dto.DemandeOrderDTO;
 import org._iir.backend.modules.order.dto.OffreOrderDTO;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -64,16 +65,8 @@ public class OffreOrderController {
         return ResponseEntity.status(HttpStatus.OK).body(orders);
     }
 
-    // Fetch order by user
-    @GetMapping("/user")
-    @PreAuthorize("hasAnyAuthority('DEMANDEUR', 'PRESTATAIRE')")
-    public ResponseEntity<List<OffreOrderDTO>> getOrdersByUser() {
-        List<OffreOrderDTO> orders = service.fetchOrdersByUser();
-        return ResponseEntity.status(HttpStatus.OK).body(orders);
-    }
-
     @PatchMapping("/confirm/{id}")
-    @PreAuthorize("hasAuthority('PRESTATAIRE')")
+    @PreAuthorize("hasAuthority('DEMANDEUR')")
     public ResponseEntity<OffreOrderDTO> confirmOrder(@PathVariable Long id) {
         OffreOrderDTO order = service.confirmOrder(id);
         return ResponseEntity.status(HttpStatus.OK).body(order);
@@ -92,5 +85,12 @@ public class OffreOrderController {
         service.delete(id);
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
+    @GetMapping("/confirmed/my-offers")
+    @PreAuthorize("hasAuthority('PRESTATAIRE')")
+    public ResponseEntity<List<OffreOrderDTO>> getConfirmedOffersByPrestataire() {
+        List<OffreOrderDTO> confirmedOffers = service.getConfirmedOffersByPrestataire();
+        return ResponseEntity.ok(confirmedOffers);
+    }
+
 
 }

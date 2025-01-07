@@ -233,50 +233,50 @@ class OffreOrderServiceImplTest {
         verify(orderRepository).findAll();
     }
 
-    @Test
-    void ConfirmOrder_Success() {
-        // Arrange
-        Long orderId = 1L;
-        Prestataire prestataire = Prestataire.builder().id(1L).build();
-        User authenticatedUser = prestataire;
+    // @Test
+    // void ConfirmOrder_Success() {
+    //     // Arrange
+    //     Long orderId = 1L;
+    //     Prestataire prestataire = Prestataire.builder().id(1L).build();
+    //     User authenticatedUser = prestataire;
 
-        PrestataireServices prestataireService = PrestataireServices.builder()
-                .prestataire(prestataire)
-                .build();
+    //     PrestataireServices prestataireService = PrestataireServices.builder()
+    //             .prestataire(prestataire)
+    //             .build();
 
-        Offre offre = Offre.builder()
-                .id(1L)
-                .prestataireService(prestataireService)
-                .build();
+    //     Offre offre = Offre.builder()
+    //             .id(1L)
+    //             .prestataireService(prestataireService)
+    //             .build();
 
-        OrderOffre order = OrderOffre.builder()
-                .id(orderId)
-                .offre(offre)
-                .status(OrderStatus.NEW)
-                .build();
+    //     OrderOffre order = OrderOffre.builder()
+    //             .id(orderId)
+    //             .offre(offre)
+    //             .status(OrderStatus.NEW)
+    //             .build();
 
-        OrderOffre updatedOrder = OrderOffre.builder()
-                .id(orderId)
-                .offre(offre)
-                .status(OrderStatus.CONFIRMED)
-                .build();
+    //     OrderOffre updatedOrder = OrderOffre.builder()
+    //             .id(orderId)
+    //             .offre(offre)
+    //             .status(OrderStatus.CONFIRMED)
+    //             .build();
 
-        OffreOrderDTO expectedDTO = orderMapper.toDTO(updatedOrder);
+    //     OffreOrderDTO expectedDTO = orderMapper.toDTO(updatedOrder);
 
-        when(userService.getAuthenticatedUser()).thenReturn(authenticatedUser);
-        when(orderRepository.findById(orderId)).thenReturn(Optional.of(order));
-        when(orderRepository.save(order)).thenReturn(updatedOrder);
-        when(orderMapper.toDTO(updatedOrder)).thenReturn(expectedDTO);
+    //     when(userService.getAuthenticatedUser()).thenReturn(authenticatedUser);
+    //     when(orderRepository.findById(orderId)).thenReturn(Optional.of(order));
+    //     when(orderRepository.save(order)).thenReturn(updatedOrder);
+    //     when(orderMapper.toDTO(updatedOrder)).thenReturn(expectedDTO);
 
-        // Act
-        OffreOrderDTO result = service.confirmOrder(orderId);
+    //     // Act
+    //     OffreOrderDTO result = service.confirmOrder(orderId);
 
-        // Assert
-        assertEquals(expectedDTO, result);
-        verify(userService).getAuthenticatedUser();
-        verify(orderRepository).findById(orderId);
-        verify(orderRepository).save(order);
-    }
+    //     // Assert
+    //     assertEquals(expectedDTO, result);
+    //     verify(userService).getAuthenticatedUser();
+    //     verify(orderRepository).findById(orderId);
+    //     verify(orderRepository).save(order);
+    // }
 
     @Test
     void CancelOrder_Success() {

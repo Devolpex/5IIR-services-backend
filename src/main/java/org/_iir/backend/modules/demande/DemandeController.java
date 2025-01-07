@@ -10,6 +10,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -36,10 +37,16 @@ public class DemandeController {
 
     @PutMapping("/api/demande/{id}")
     public ResponseEntity<DemandeDTO> update(@PathVariable Long id,
-            @RequestBody @Valid DemandeREQ request) {
+                                             @RequestBody @Valid DemandeREQ request) {
         DemandeDTO dto = service.update(request, id);
         return ResponseEntity.status(HttpStatus.OK).body(dto);
     }
+    @GetMapping("/api/demande/mes-demandes")
+    public ResponseEntity<List<DemandeDTO>> getMyDemandes() {
+        List<DemandeDTO> demandes = service.findDemandesByAuthenticatedDemandeur();
+        return ResponseEntity.status(HttpStatus.OK).body(demandes);
+    }
+
 
     @GetMapping("/api/demande/{id}")
     public ResponseEntity<DemandeDTO> findById(

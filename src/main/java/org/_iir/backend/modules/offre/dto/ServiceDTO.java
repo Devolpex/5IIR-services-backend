@@ -4,8 +4,8 @@ import lombok.Builder;
 
 @Builder
 public record ServiceDTO(
-    Long id,
-    String title
+        Long id,
+        String title
 ) {
-    
+
 }

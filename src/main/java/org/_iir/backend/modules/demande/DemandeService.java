@@ -8,11 +8,11 @@ import org._iir.backend.interfaces.IService;
 import org._iir.backend.modules.demande.dto.DemandeDTO;
 import org._iir.backend.modules.demande.dto.DemandeREQ;
 import org._iir.backend.modules.demandeur.Demandeur;
-import org._iir.backend.modules.demandeur.DemandeurRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
 import lombok.RequiredArgsConstructor;
@@ -26,64 +26,51 @@ public class DemandeService implements IService<Demande, DemandeDTO, DemandeREQ,
 
     // Repository
     private final DemandeRepository repository;
-    private final DemandeurRepository demandeurRepository;
 
     // Mapper
     private final DemandeMapperImpl mapper;
 
     @Override
     public DemandeDTO create(DemandeREQ req) {
-        // Build the DemandeService Entity from the request
-        Demande demandeService = Demande.builder()
+        // Récupérer l'utilisateur connecté depuis le SecurityContext
+        Demandeur authenticatedDemandeur = (Demandeur) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+
+        // Créer l'entité Demande
+        Demande demande = Demande.builder()
                 .service(req.service())
                 .description(req.description())
                 .lieu(req.lieu())
                 .dateDisponible(req.dateDisponible())
+                .demandeur(authenticatedDemandeur) // Associer la demande au demandeur connecté
+                .emailDemandeur(authenticatedDemandeur.getEmail()) // Associer l'email du demandeur
+
                 .build();
 
-        // // Get the User form the SecurityContext
-        // User user = (User)
-        // SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        // // Find the Demandeur by the User
-        // Demandeur demandeur =
-        // demandeurrepository.findByEmail(user.getEmail()).orElseThrow(() -> {
-        // logger.error("Demandeur not found for user : {}", user.getEmail());
-        // throw new OwnNotFoundException("Demandeur not found");
-        // });
+        // Sauvegarder la demande
+        Demande savedDemande = repository.save(demande);
 
-        // Demandeur form the request
-        Demandeur demandeur = demandeurRepository.findById(req.demandeurId()).orElseThrow(() -> {
-            logger.error("Demandeur not found for id : {}", req.demandeurId());
-            throw new OwnNotFoundException("Demandeur not found");
-        });
-        // Set the Demandeur to the DemandeService
-        demandeService.setDemandeur(demandeur);
-        // Save the DemandeService
-        demandeService = repository.save(demandeService);
-        // Send Email to the Demandeur
-
-        // Return the DemandeServiceDTO
-        return mapper.toDTO(demandeService);
+        // Retourner le DTO
+        return mapper.toDTO(savedDemande);
     }
 
     @Override
     public DemandeDTO update(DemandeREQ req, Long id) {
-        // Find the DemandeService by the id
+        // Trouver la demande par ID
         return repository.findById(id)
                 .map(demande -> {
-                    // Update the DemandeService
+                    // Mettre à jour les champs de la demande
                     demande.setService(req.service());
                     demande.setDescription(req.description());
                     demande.setLieu(req.lieu());
                     demande.setDateDisponible(req.dateDisponible());
-                    // Save the updated DemandeService
-                    demande = repository.save(demande);
-                    // Return the updated DemandeServiceDTO
-                    return mapper.toDTO(demande);
+                    // Sauvegarder les modifications
+                    Demande updatedDemande = repository.save(demande);
+                    // Retourner le DTO
+                    return mapper.toDTO(updatedDemande);
                 })
                 .orElseThrow(() -> {
-                    logger.error("DemandeService not found for id : {}", id);
-                    throw new OwnNotFoundException("DemandeService not found");
+                    logger.error("Demande introuvable pour l'ID : {}", id);
+                    throw new OwnNotFoundException("Demande introuvable.");
                 });
     }
 
@@ -91,30 +78,27 @@ public class DemandeService implements IService<Demande, DemandeDTO, DemandeREQ,
     public void delete(Long id) {
         repository.findById(id)
                 .ifPresentOrElse(
-                        // Delete the DemandeService
                         repository::delete,
-                        // Throw Exception
                         () -> {
-                            logger.error("DemandeService not found for id : {}", id);
-                            throw new OwnNotFoundException("DemandeService not found");
+                            logger.error("Demande introuvable pour l'ID : {}", id);
+                            throw new OwnNotFoundException("Demande introuvable.");
                         });
     }
 
     @Override
     public DemandeDTO findById(Long id) {
-        // Find and return the DemandeServiceDTO
         return repository.findById(id)
                 .map(mapper::toDTO)
                 .orElseThrow(() -> {
-                    logger.error("DemandeService not found for id : {}", id);
-                    throw new OwnNotFoundException("DemandeService not found");
+                    logger.error("Demande introuvable pour l'ID : {}", id);
+                    throw new OwnNotFoundException("Demande introuvable.");
                 });
     }
 
     @Override
     public List<DemandeDTO> findList() {
-        // Find and return the list of DemandeServiceDTO
-        return repository.findAll().stream()
+        return repository.findAll()
+                .stream()
                 .map(mapper::toDTO)
                 .collect(Collectors.toList());
     }
@@ -124,4 +108,18 @@ public class DemandeService implements IService<Demande, DemandeDTO, DemandeREQ,
         return repository.findAll(pageable)
                 .map(mapper::toDTO);
     }
+    public List<DemandeDTO> findDemandesByAuthenticatedDemandeur() {
+        Demandeur authenticatedDemandeur = (Demandeur) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+
+        if (authenticatedDemandeur == null || authenticatedDemandeur.getId() == null) {
+            logger.error("Demandeur non authentifié ou ID non trouvé.");
+            throw new OwnNotFoundException("Utilisateur non authentifié.");
+        }
+
+        return repository.findByDemandeurId(authenticatedDemandeur.getId())
+                .stream()
+                .map(mapper::toDTO)
+                .collect(Collectors.toList());
+    }
+
 }

@@ -11,5 +11,8 @@ public interface PropositionDao extends JpaRepository<Proposition, Long> {
 
     @Query("SELECT p FROM Proposition p WHERE p.demande.id = :demandeId")
     List<Proposition> findByDemandeId(@Param("demandeId") Long demandeId);
+
+    @Query("SELECT p FROM Proposition p WHERE p.prestataire.id = :prestataireId")
+    List<Proposition> findByPrestataireId(@Param("prestataireId") Long prestataireId);
     
 }

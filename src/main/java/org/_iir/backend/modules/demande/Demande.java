@@ -40,6 +40,7 @@ public class Demande {
 
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
+    private String emailDemandeur; // Nouveau champ pour stocker l'email du demandeur
 
     @PrePersist
     private void onCreate() {

@@ -1,11 +1,12 @@
 package org._iir.backend.modules.order.demande;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 import org._iir.backend.exception.OwnNotFoundException;
 import org._iir.backend.modules.demande.Demande;
+import org._iir.backend.modules.demande.DemandeRepository;
+
 import org._iir.backend.modules.demandeur.Demandeur;
 import org._iir.backend.modules.order.IOrder;
 import org._iir.backend.modules.order.OrderStatus;
@@ -16,6 +17,8 @@ import org._iir.backend.modules.proposition.PropositionDao;
 import org._iir.backend.modules.user.Role;
 import org._iir.backend.modules.user.User;
 import org._iir.backend.modules.user.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -28,6 +31,8 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class DemandeOrderServiceImpl
         implements IOrder<DemandeOrder, DemandeOrderDTO, DemandeOrderREQ, DemandeOrderREQ, Long> {
+    private static final Logger logger = LoggerFactory.getLogger(DemandeOrderServiceImpl.class);
+    private final DemandeRepository demandeRepository;
 
     private final DemandeOrderRepository orderRepository;
     private final DemandeOrderMapperImpl orderMapper;
@@ -108,42 +113,7 @@ public class DemandeOrderServiceImpl
                 .map(orderMapper::toDTO);
     }
 
-    /**
-     * Bug: The method fetchOrdersByUser() in DemandeOrderServiceImpl.java is not
-     * implemented correctly. The method is supposed to fetch orders by the current
-     */
-    @Override
-    public List<DemandeOrderDTO> fetchOrdersByUser() {
-        // Get the currently authenticated user
-        User user = userService.getAuthenticatedUser();
 
-        // Check if the user is a Demandeur
-        if (user.getRole().equals(Role.DEMANDEUR)) {
-            Demandeur demandeur = (Demandeur) user;
-
-            // List to store the orders
-            List<DemandeOrderDTO> orders = new ArrayList<>();
-
-            // Loop through the list of demandes (the Demandeur's requests)
-            for (Demande demande : demandeur.getDemandes()) {
-                // For each demande, check if it has a related proposition and demandeOrder
-                for (Proposition proposition : demande.getPropositions()) {
-                    DemandeOrder demandeOrder = proposition.getDemandeOrder();
-
-                    if (demandeOrder != null) {
-                        // Convert the DemandeOrder entity to DemandeOrderDTO
-                        DemandeOrderDTO orderDTO = orderMapper.toDTO(demandeOrder);
-                        orders.add(orderDTO); // Add to the list of orders
-                    }
-                }
-            }
-
-            return orders;
-        }
-
-        // Return an empty list or null if the user is not a Demandeur
-        return new ArrayList<>();
-    }
 
     @Override
     public DemandeOrderDTO confirmOrder(Long orderId) {
@@ -231,4 +201,16 @@ public class DemandeOrderServiceImpl
         return orderMapper.toDTO(order);
     }
 
+
+    public List<DemandeOrderDTO> getConfirmedDemandesByDemandeur() {
+        User user = userService.getAuthenticatedUser();
+        if (user instanceof Demandeur demandeur) {
+            return orderRepository
+                    .findByPropositionDemandeDemandeurEmailAndStatus(demandeur.getEmail(), OrderStatus.CONFIRMED)
+                    .stream()
+                    .map(orderMapper::toDTO)
+                    .toList();
+        }
+        throw new OwnNotFoundException("Seul un demandeur peut consulter ses demandes approuvées.");
+    }
 }
